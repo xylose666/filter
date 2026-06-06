@@ -209,6 +209,140 @@ META_KEY_EXACT = {
 SPLIT_PATTERN = re.compile(r"[、,，;；|/\n]+")
 WORD_PATTERN = re.compile(r"[a-zA-Z][a-zA-Z'\-]*")
 
+PERSON_HINTS = {
+    "athlete",
+    "athletes",
+    "player",
+    "players",
+    "rider",
+    "riders",
+    "shooter",
+    "shooters",
+    "diver",
+    "divers",
+    "fencer",
+    "fencers",
+    "skater",
+    "skaters",
+    "sailor",
+    "sailors",
+    "golfer",
+    "golfers",
+    "canoer",
+    "canoers",
+    "wrestler",
+    "wrestlers",
+    "boxer",
+    "boxers",
+    "swimmer",
+    "swimmers",
+    "gymnast",
+    "gymnasts",
+    "runner",
+    "runners",
+    "who",
+}
+
+COUNTRY_OR_TEAM_NAMES = {
+    "argentina",
+    "australia",
+    "austria",
+    "belgium",
+    "brazil",
+    "bulgaria",
+    "canada",
+    "china",
+    "chinese taipei",
+    "colombia",
+    "cuba",
+    "czech republic",
+    "czechia",
+    "czechoslovakia",
+    "denmark",
+    "east germany",
+    "ecuador",
+    "england",
+    "finland",
+    "france",
+    "germany",
+    "ghana",
+    "great britain",
+    "greece",
+    "hungary",
+    "ireland",
+    "israel",
+    "italy",
+    "jamaica",
+    "japan",
+    "latvia",
+    "mexico",
+    "mixed team",
+    "morocco",
+    "netherlands",
+    "new zealand",
+    "nigeria",
+    "norway",
+    "olympic athletes from russia",
+    "people's republic of china",
+    "poland",
+    "portugal",
+    "republic of korea",
+    "roc",
+    "romania",
+    "russian federation",
+    "san marino",
+    "serbia",
+    "slovenia",
+    "soviet union",
+    "south africa",
+    "spain",
+    "sweden",
+    "switzerland",
+    "the bahamas",
+    "turkiye",
+    "ukraine",
+    "unified team",
+    "unified team of germany",
+    "united states",
+    "uruguay",
+    "west germany",
+    "yugoslavia",
+}
+
+GENERIC_EVENT_TERMS = {
+    "men",
+    "women",
+    "individual",
+    "team",
+    "singles",
+    "doubles",
+    "mixed",
+    "all-around",
+    "floor exercise",
+    "vault",
+    "parallel bars",
+    "horizontal bar",
+    "rings",
+    "balance beam",
+    "pommelled horse",
+    "marathon",
+    "relay",
+    "high jump",
+    "pole vault",
+    "long jump",
+    "triple jump",
+    "shot put",
+    "discus throw",
+    "hammer throw",
+    "javelin throw",
+    "decathlon",
+    "heptathlon",
+    "basketball",
+    "baseball",
+    "boxing",
+    "wrestling",
+}
+
 
 def load_config():
     with open(CONFIG_PATH, "r", encoding="utf-8") as handle:
@@ -291,6 +425,76 @@ def split_scalar_text(text):
     return [text.strip()]
 
 
+def is_person_question(question):
+    normalized = normalize_for_match(question)
+    tokens = set(normalized.split())
+    return bool(tokens & PERSON_HINTS)
+
+
+def is_noise_candidate(candidate):
+    text = normalize_scalar(candidate)
+    normalized = normalize_for_match(text)
+    if not normalized:
+        return True
+    if normalized.isdigit():
+        return True
+    if re.fullmatch(r".+\s+\d+", normalized) and re.sub(r"\s+\d+$", "", normalized) in COUNTRY_OR_TEAM_NAMES:
+        return True
+    if re.fullmatch(r"[a-z]{2,4}", normalized) and text.isupper():
+        return True
+    if "olympics" in normalized or "olympic games" in normalized:
+        return True
+    if re.fullmatch(r"\d+(\s+(metres|kilometres|kg|kilograms))?", normalized):
+        return True
+    if any(unit in normalized for unit in ["metres", "kilometres", "kilograms", "hurdles", "wheelchair"]):
+        return True
+    if normalized in COUNTRY_OR_TEAM_NAMES or normalized in GENERIC_EVENT_TERMS:
+        return True
+    if len(normalized) <= 1:
+        return True
+    return False
+
+
+def looks_like_person_name(candidate):
+    text = normalize_scalar(candidate)
+    normalized = normalize_for_match(text)
+    if is_noise_candidate(text):
+        return False
+    if normalized in DEFAULT_STOPWORDS:
+        return False
+
+    words = WORD_PATTERN.findall(text)
+    if len(words) < 2 or len(words) > 5:
+        return False
+    if any(word.lower() in DEFAULT_STOPWORDS for word in words):
+        return False
+    if any(word.lower() in {"team", "men", "women", "mixed", "relay"} for word in words):
+        return False
+    return True
+
+
+def rank_answer_candidates(question, candidates):
+    candidates = dedupe_preserve_order(candidates)
+    if not candidates:
+        return []
+
+    person_question = is_person_question(question)
+    ranked = []
+    for index, candidate in enumerate(candidates):
+        if is_noise_candidate(candidate):
+            continue
+        score = max(0.0, 1.0 - index * 0.001)
+        if person_question:
+            score += 2.0 if looks_like_person_name(candidate) else -1.0
+        ranked.append((score, candidate))
+
+    if not ranked:
+        return candidates
+
+    ranked.sort(key=lambda item: item[0], reverse=True)
+    return [candidate for _, candidate in ranked]
+
+
 def extract_answer_candidates(value, depth=0):
     if value is None:
         return []
@@ -345,6 +549,24 @@ def load_json_or_jsonl(file_path):
     try:
         return json.loads(raw)
     except json.JSONDecodeError:
+        decoder = json.JSONDecoder()
+        items = []
+        index = 0
+        while index < len(raw):
+            while index < len(raw) and raw[index].isspace():
+                index += 1
+            if index >= len(raw):
+                break
+            try:
+                item, next_index = decoder.raw_decode(raw, index)
+            except json.JSONDecodeError:
+                items = []
+                break
+            items.append(item)
+            index = next_index
+        if items:
+            return items
+
         result = []
         for line in raw.splitlines():
             line = line.strip()
@@ -474,11 +696,21 @@ def load_refiner_json(file_path, cfg):
         if not answers:
             answers.extend(extract_answer_candidates(item.get("final_results")))
 
-        result_by_id[qid] = {
-            "final_results": dedupe_preserve_order(answers)[:20],
-            "refined_sql": item.get("refined_sql", ""),
-            "iterations": item.get("iterations", 1),
-        }
+        current = result_by_id.setdefault(
+            qid,
+            {
+                "final_results": [],
+                "refined_sql": "",
+                "iterations": 0,
+                "original_question": used.get("question", "") if isinstance(used, dict) else "",
+            },
+        )
+        current["final_results"] = dedupe_preserve_order(current["final_results"] + answers)
+        if item.get("refined_sql"):
+            current["refined_sql"] = item.get("refined_sql", "")
+        current["iterations"] += int(item.get("iterations", 1) or 1)
+        if not current.get("original_question") and isinstance(used, dict):
+            current["original_question"] = used.get("question", "")
 
     return result_by_id
 
@@ -576,7 +808,8 @@ def filter_sql_results(sub_question, question_id, sql_by_id, refiner_map, cfg, s
     refiner = refiner_map.get(question_id, {})
     refiner_results = refiner.get("final_results") or []
     if refiner_results:
-        return dedupe_preserve_order(refiner_results)[:20], 1.0
+        max_sql = int(cfg.get("thresholds", {}).get("sql_top_k", 100))
+        return dedupe_preserve_order(refiner_results)[:max_sql], 1.0
 
     records = sql_by_id.get(question_id, [])
     candidates = collect_sql_candidates(records)
@@ -594,7 +827,8 @@ def filter_sql_results(sub_question, question_id, sql_by_id, refiner_map, cfg, s
         )
 
     scored.sort(key=lambda item: item["score"], reverse=True)
-    best = [item["text"] for item in scored[:20]]
+    max_sql = int(cfg.get("thresholds", {}).get("sql_top_k", 100))
+    best = [item["text"] for item in scored[:max_sql]]
     best_score = scored[0]["score"] if scored else 0.0
     return dedupe_preserve_order(best), best_score
 
@@ -686,7 +920,7 @@ def call_llm(prompt, model, api_key, temperature=0):
 
 def format_answer_list(values, limit=10):
     values = dedupe_preserve_order(values)[:limit]
-    return "、".join(values)
+    return ", ".join(values)
 
 
 def answer_sub_question_with_llm(sub_q, filtered_answers, llm_config, prompts):
@@ -713,7 +947,8 @@ def fuse_answers_with_llm(original_question, sub_answers, combination, llm_confi
 
 def process_question(question_id, data_maps, cfg, sport_dict):
     decomp = data_maps["decomposer"].get(question_id, {})
-    original_q = decomp.get("original_question", "")
+    refiner = data_maps["refiner"].get(question_id, {})
+    original_q = decomp.get("original_question", "") or refiner.get("original_question", "")
     sub_questions = decomp.get("sub_questions", [])
     combination = decomp.get("combination", {}) or {}
     if not sub_questions:
@@ -721,9 +956,13 @@ def process_question(question_id, data_maps, cfg, sport_dict):
 
     llm_config = cfg.get("llm", {})
     prompts = cfg.get("prompts", {})
-    has_llm = bool(llm_config.get("api_key") and prompts)
+    has_llm = bool(llm_config.get("enabled", False) and llm_config.get("api_key") and prompts)
 
     sub_answers = []
+    sql_answer_groups = []
+    vector_context_groups = []
+    merged_candidate_groups = []
+    ranked_candidate_groups = []
     for sub_question in sub_questions:
         sql_ans, _ = filter_sql_results(
             sub_question,
@@ -735,11 +974,16 @@ def process_question(question_id, data_maps, cfg, sport_dict):
         )
         vec_ans = get_vector_results(sub_question, question_id, data_maps["vector"], cfg, sport_dict)
         merged = dedupe_preserve_order(sql_ans + vec_ans)
+        ranked = rank_answer_candidates(sub_question, merged)
+        sql_answer_groups.append(sql_ans)
+        vector_context_groups.append(vec_ans)
+        merged_candidate_groups.append(merged)
+        ranked_candidate_groups.append(ranked)
 
-        if has_llm and merged:
-            answer = answer_sub_question_with_llm(sub_question, merged, llm_config, prompts)
-        elif merged:
-            answer = format_answer_list(merged, limit=10)
+        if has_llm and ranked:
+            answer = answer_sub_question_with_llm(sub_question, ranked, llm_config, prompts)
+        elif ranked:
+            answer = format_answer_list(ranked, limit=int(cfg.get("thresholds", {}).get("answer_top_k", 50)))
         else:
             answer = ""
         sub_answers.append(answer)
@@ -757,6 +1001,10 @@ def process_question(question_id, data_maps, cfg, sport_dict):
         "sub_questions": sub_questions,
         "combination_type": combination.get("type", "parallel"),
         "sub_answers": sub_answers,
+        "sql_answers": sql_answer_groups,
+        "vector_contexts": vector_context_groups,
+        "merged_candidates": merged_candidate_groups,
+        "ranked_candidates": ranked_candidate_groups,
         "final_answer": final_answer,
     }
 
@@ -780,6 +1028,11 @@ def parse_limit(argv):
             return 10
 
     return 10
+
+
+def print_source_status(name, configured_path, resolved_path, count):
+    exists_text = "found" if resolved_path.exists() else "missing"
+    print(f"{name}: {count} records ({exists_text}: {resolved_path})")
 
 
 def main():
@@ -807,6 +1060,11 @@ def main():
 
     refiner_map = load_refiner_json(paths["refiner"], cfg)
 
+    print_source_status("decomposer", paths["decomposer"], resolve_path(paths["decomposer"], cfg), len(decomp_map))
+    print_source_status("vector", paths["vector_retrieval"], resolve_path(paths["vector_retrieval"], cfg), len(vector_map))
+    print_source_status("sql_execution", paths["sql_execution"], resolve_path(paths["sql_execution"], cfg), len(sql_by_id))
+    print_source_status("refiner", paths["refiner"], resolve_path(paths["refiner"], cfg), len(refiner_map))
+
     data_maps = {
         "decomposer": decomp_map,
         "sql_exec": sql_by_id,
@@ -814,7 +1072,7 @@ def main():
         "vector": vector_map,
     }
 
-    all_qids = sorted(set(decomp_map.keys()) | set(vector_map.keys()) | set(sql_by_id.keys()))
+    all_qids = sorted(set(decomp_map.keys()) | set(vector_map.keys()) | set(sql_by_id.keys()) | set(refiner_map.keys()))
     if limit is not None:
         all_qids = all_qids[:limit]
 

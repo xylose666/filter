@@ -5,7 +5,7 @@
     "selector": "ai_schema_link/table_selection_results.jsonl",
     "generator": "GLM_generator/sql_generation_results.jsonl",
     "sql_execution": "mysql_retrival/results/sql_execution_results.jsonl",
-    "refiner": "refiner/batch_results.json",
+    "refiner": "batch_results.json",
     "vector_retrieval": "retrival_result/olympedia_questions_splade_results.jsonl",
     "gold_answers": [
       "question/olympedia_questions.jsonl",
@@ -23,11 +23,12 @@
     "sport_bonus_weight": 0.15
 },
   "output": {
-    "filtered_results": "filter/filtered_results.json",
-    "evaluation": "filter/evaluation_results.json",
-    "sport_dict_cache": "filter/sport_dict.json"
+    "filtered_results": "filtered_results.json",
+    "evaluation": "evaluation_results.json",
+    "sport_dict_cache": "sport_dict.json"
   },
   "llm": {
+    "enabled": false,
     "api_key": "sk-624c0ac97be3410f8061d2a2f7b0069e",
     "model": "qwen-max",
     "temperature": 0
