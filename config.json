@@ -1,0 +1,39 @@
+{
+  "paths": {
+    "project_root": "D:/olympediaRag-main",
+    "decomposer": "Decomposer/olympedia_decomposition_results.jsonl",
+    "selector": "ai_schema_link/table_selection_results.jsonl",
+    "generator": "GLM_generator/sql_generation_results.jsonl",
+    "sql_execution": "mysql_retrival/results/sql_execution_results.jsonl",
+    "refiner": "refiner/batch_results.json",
+    "vector_retrieval": "retrival_result/olympedia_questions_splade_results.jsonl",
+    "gold_answers": [
+      "question/olympedia_questions.jsonl",
+      "question/olympic_questions.jsonl",
+      "question/questions.jsonl"
+    ]
+  },
+"thresholds": {
+    "vector_min_score_text": 20.0,
+    "vector_min_score_infobox": 15.0,
+    "vector_min_score_table": 12.0,
+    "vector_top_k_per_type": 5,
+    "vector_relevance_min": 0.15,
+    "sql_min_semantic_score": 0.25,
+    "sport_bonus_weight": 0.15
+},
+  "output": {
+    "filtered_results": "filter/filtered_results.json",
+    "evaluation": "filter/evaluation_results.json",
+    "sport_dict_cache": "filter/sport_dict.json"
+  },
+  "llm": {
+    "api_key": "sk-624c0ac97be3410f8061d2a2f7b0069e",
+    "model": "qwen-max",
+    "temperature": 0
+  },
+  "prompts": {
+    "answer_sub_question": "You are an Olympic knowledge assistant. Answer the following question based ONLY on the provided retrieved information.\n\nQuestion: {question}\n\nRetrieved information:\n{retrieved_info}\n\nInstructions:\n1. If the information contains athlete names, output them as a comma-separated list.\n2. If multiple items exist, list all relevant ones.\n3. Be concise. Do not add extra explanation.\n4. If no relevant information, say \"Information not found.\"\n\nAnswer:",
+    "fuse_answers": "You are an Olympic knowledge assistant. Combine the following sub-answers into a final answer for the original question.\n\nOriginal question: {original_question}\n\nCombination type: {combination_type}\nCombination description: {combination_description}\n\nSub-answers:\n{sub_answers}\n\nInstructions:\n1. If combination type is \"aggregate\", find the common elements across sub-answers.\n2. If \"parallel\", present all sub-answers together.\n3. If \"serial\", present them in order.\n4. If \"compare\", compare the values and output the comparison result.\n5. The final answer should be natural and concise.\n\nFinal answer:"
+  }
+}
