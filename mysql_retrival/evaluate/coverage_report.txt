@@ -1,0 +1,5287 @@
+================================================================================
+SQL执行结果覆盖率评估报告
+================================================================================
+
+总体统计
+--------------------------------------------------------------------------------
+
+K = 1:
+  总问题数: 113
+  覆盖问题数: 6
+  执行失败数: 71
+  覆盖率: 5.31%
+  执行成功率: 37.17%
+
+K = 2:
+  总问题数: 113
+  覆盖问题数: 4
+  执行失败数: 71
+  覆盖率: 3.54%
+  执行成功率: 37.17%
+
+K = 3:
+  总问题数: 113
+  覆盖问题数: 4
+  执行失败数: 82
+  覆盖率: 3.54%
+  执行成功率: 27.43%
+
+K = 4:
+  总问题数: 113
+  覆盖问题数: 4
+  执行失败数: 81
+  覆盖率: 3.54%
+  执行成功率: 28.32%
+
+K = 5:
+  总问题数: 113
+  覆盖问题数: 3
+  执行失败数: 71
+  覆盖率: 2.65%
+  执行成功率: 37.17%
+
+K = 6:
+  总问题数: 113
+  覆盖问题数: 4
+  执行失败数: 68
+  覆盖率: 3.54%
+  执行成功率: 39.82%
+
+K = 7:
+  总问题数: 113
+  覆盖问题数: 3
+  执行失败数: 73
+  覆盖率: 2.65%
+  执行成功率: 35.40%
+
+K = 8:
+  总问题数: 113
+  覆盖问题数: 6
+  执行失败数: 73
+  覆盖率: 5.31%
+  执行成功率: 35.40%
+
+================================================================================
+详细问题分析
+================================================================================
+
+K = 1 详细分析:
+--------------------------------------------------------------------------------
+问题ID: 231
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+执行成功: 否
+执行失败
+
+问题ID: 232
+问题: Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 233
+问题: Badminton players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 234
+问题: Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 34739, 34843, 107397, 34800, 92491...
+未覆盖的答案: lars hall, andrey moiseyev
+
+问题ID: 235
+问题: Olympians Who Won Olympic, NCAA and NBA Basketball Titles
+执行成功: 否
+执行失败
+
+问题ID: 236
+问题: Olympic Divers - Individual Double Champions, Different Years
+执行成功: 否
+执行失败
+
+问题ID: 237
+问题: Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 129027, 129036, 133771, 129032, 2505677...
+未覆盖的答案: michaela blyde, theresa fitzpatrick-setefano, sarah goss-hirini, tyla nathan-wong-king, risi pouri-lane, alena saili, jerry tuwai, stacey waaka-fluhler, portia woodman-wickliffe
+
+问题ID: 238
+问题: Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 239
+问题: Basketball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: United States...
+未覆盖的答案: swin cash, anthony davis, teresa edwards, patrick ewing, lebron james, michael jordan, jason kidd, katrina mcclain, delisha milton-jones, chris mullin
+
+问题ID: 240
+问题: Water Polo players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: aleksey barkalov, ottó boros, dezső gyarmati, aleksandr kabanov, tivadar kanizsa, györgy kárpáti, mihály mayer, vyacheslav sobchenko
+
+问题ID: 241
+问题: Sailors who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 242
+问题: Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 243
+问题: Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 245
+问题: Olympians Who Played in Tarzan Movies
+执行成功: 否
+执行失败
+
+问题ID: 246
+问题: Olympic Champion Golfers Who Won Major Championships
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 2506025, Park In-Bi, Atthaya Thitikul, Feng Shanshan, 130937...
+覆盖的答案: lydia ko, nelly korda, park in-bi
+未覆盖的答案: chandler egan, justin rose, scottie scheffler
+
+问题ID: 247
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 248
+问题: Rowers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 249
+问题: Olympic Fencers - Winning Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 250
+问题: Baseball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 251
+问题: Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 252
+问题: Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)
+执行成功: 否
+执行失败
+
+问题ID: 253
+问题: Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics
+执行成功: 是
+答案覆盖: 否
+提取的姓名: David SHARABI, Ryosuke KIKUCHI, Ramon ROSSO, Daniel DUARTE, Yudai OHNO...
+未覆盖的答案: edmund minahan, jim thorpe
+
+问题ID: 254
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Bohemia, Tilemachos Karakalos, Sofya Velikaya, Fabio Dal Zotto, Anja Fichtel...
+覆盖的答案: manuel díaz, aldo nadi, nedo nadi, oreste puliti
+
+问题ID: 255
+问题: Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 256
+问题: Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 257
+问题: Luge athletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 258
+问题: Weightlifters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Zhiyong SHI...
+未覆盖的答案: akakios kakiasvili, long qingquan
+
+问题ID: 259
+问题: Olympians Who Participated in Formula One Races
+执行成功: 否
+执行失败
+
+问题ID: 260
+问题: Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 261
+问题: Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Tan Liangde, He Zi, Russian Federation, Wang Zongyuan, People's Republic of China...
+未覆盖的答案: harry boldt, nadine capellmann, andré jousseaumé, reiner klimke, martin schaudt, isabell werth
+
+问题ID: 262
+问题: Wrestlers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: bruce baumgartner, sergey beloglazov, andrzej wroński
+
+问题ID: 263
+问题: Olympians Who Were on the Titanic
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: cosmo duff-gordon, dick williams
+
+问题ID: 264
+问题: Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: István PELLE, Gabrielle DOUGLAS, Kexin HE, Kai ZOU, Nikita NAGORNYY...
+覆盖的答案: simone biles, huang xu, mario lertora, li xiaopeng, tamara manina
+未覆盖的答案: sergey kharkov, yang wei
+
+问题ID: 265
+问题: Olympians Who Were Head of State
+执行成功: 否
+执行失败
+
+问题ID: 266
+问题: Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner
+执行成功: 否
+执行失败
+
+问题ID: 267
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 268
+问题: Curlers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eva lund, cathrine norberg-lindahl, anette norberg, anna svärd-le moine
+
+问题ID: 269
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman
+执行成功: 否
+执行失败
+
+问题ID: 270
+问题: Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Adilbek Niyazymbetov, Félix Savón, Nicola Adams, Claressa Shields...
+未覆盖的答案: tony estanguet, michal martikán
+
+问题ID: 271
+问题: Olympians Who Have a Town Named After Them
+执行成功: 否
+执行失败
+
+问题ID: 272
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event
+执行成功: 否
+执行失败
+
+问题ID: 273
+问题: Olympic Fencers - Winning Medals, Foil/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 274
+问题: Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 275
+问题: Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 276
+问题: Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kjetil andré aamodt, vreni schneider
+
+问题ID: 277
+问题: Olympians Who Set a World Record in Speed Skating
+执行成功: 否
+执行失败
+
+问题ID: 278
+问题: Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 279
+问题: Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: yuto horigome, keegan palmer
+
+问题ID: 280
+问题: Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 281
+问题: Olympians Who Set a World Record in Long Course Swimming
+执行成功: 否
+执行失败
+
+问题ID: 282
+问题: Rugby players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 283
+问题: Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 284
+问题: Olympic Divers - Individual Double Champions, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 285
+问题: Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 286
+问题: Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships
+执行成功: 否
+执行失败
+
+问题ID: 287
+问题: Baseball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 288
+问题: Olympians Who Won the Super Bowl
+执行成功: 否
+执行失败
+
+问题ID: 289
+问题: Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 83038, 110095, 85681, 80870, 87433...
+未覆盖的答案: kjetil andré aamodt, deborah compagnoni, michelle gisin, maria höfl-riesch, janica kostelić, matthias mayer, katja seizinger, alberto tomba
+
+问题ID: 290
+问题: Equestrianism: Competing in all events
+执行成功: 否
+执行失败
+
+问题ID: 291
+问题: Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Japan, United States, USA, JPN...
+未覆盖的答案: pat borders, josé contreras, yuli gourriel, orlando hernández, doug mientkiewicz
+
+问题ID: 292
+问题: Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 293
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Bohemia, Valérie Barlois-Mevel, Albert Ayat, Tilemachos Karakalos, Sofya Velikaya...
+覆盖的答案: aldo nadi, nedo nadi
+
+问题ID: 294
+问题: Triathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 295
+问题: Archers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 296
+问题: Olympians Who Were Head of Government
+执行成功: 否
+执行失败
+
+问题ID: 297
+问题: Olympians Who Have Won a Nobel Prize
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: philip baker
+
+问题ID: 298
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Olha Kharlan...
+覆盖的答案: cyrille verbrugge
+
+问题ID: 299
+问题: Olympians Who Won a Medal at the European Archery Championships
+执行成功: 否
+执行失败
+
+问题ID: 300
+问题: Olympic Fencers - Winning Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Olha Kharlan...
+覆盖的答案: roger ducret, gabriel, comte de la falaise, ioannis raisis, albertson van zo post, cyrille verbrugge
+
+问题ID: 301
+问题: BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 302
+问题: Olympians Who Have Topped the English FA Premier League Goal Scoring List
+执行成功: 否
+执行失败
+
+问题ID: 303
+问题: Olympians Who Competed in the Boat Race
+执行成功: 否
+执行失败
+
+问题ID: 304
+问题: Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: guido fulst, lutz heßlich, jens lehmann, joan llaneras, bradley wiggins
+
+问题ID: 305
+问题: Olympians Who Have Flown into Space
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: jon goodwin
+
+问题ID: 306
+问题: Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 307
+问题: Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 52799, 94592, 94405, 51770...
+未覆盖的答案: misty may-treanor, kerri walsh jennings
+
+问题ID: 308
+问题: Olympians Who Fought at WrestleMania
+执行成功: 否
+执行失败
+
+问题ID: 309
+问题: Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines
+执行成功: 否
+执行失败
+
+问题ID: 310
+问题: Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: marit bjørgen, bjørn dæhlie, nina gavrylyuk, sixten jernberg, kristen skjeldal, raisa smetanina
+
+问题ID: 311
+问题: Volleyball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 109261, 52791, 131716, 52034, 53353...
+未覆盖的答案: giovane, maurício, serginho
+
+问题ID: 312
+问题: Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 313
+问题: Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 13057, 15825, 113245, 16888, 14670...
+未覆盖的答案: fabian cancellara
+
+问题ID: 314
+问题: Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eric frenzel, felix gottwald, johan grøttumsbraaten, takanori kono, kenji ogiwara, mario stecher, ulrich wehling
+
+问题ID: 315
+问题: Divers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: lin yue
+
+问题ID: 316
+问题: Tennis players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 94424, 757, 130998, 94425, 117575...
+未覆盖的答案: reggie doherty, serena williams, venus williams
+
+问题ID: 317
+问题: Olympians Included on the Voyager 1 and 2 Golden Record
+执行成功: 否
+执行失败
+
+问题ID: 318
+问题: Golfers Who Recorded Holes-in-One at the Olympic Games
+执行成功: 否
+执行失败
+
+问题ID: 319
+问题: Footballers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Spain, Argentina, Italy, Yugoslavia, Netherlands...
+未覆盖的答案: brandi chastain, joy fawcett, julie foudy, mia hamm, kristine lilly, cindy parlow, briana scurry, abby wambach
+
+问题ID: 320
+问题: Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World (Work in progress)
+执行成功: 否
+执行失败
+
+问题ID: 321
+问题: Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 322
+问题: Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 323
+问题: Biathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 324
+问题: Judokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: teddy riner
+
+问题ID: 325
+问题: Inventions by and named after Olympians
+执行成功: 否
+执行失败
+
+问题ID: 326
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Olha Kharlan...
+覆盖的答案: marcello bertinetti, gabriel, comte de la falaise, aldo nadi, nedo nadi, dino urbani, cyrille verbrugge
+
+问题ID: 327
+问题: Olympians Who Have Climbed Mount Everest
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: manuela di centa, sabrina filzmoser, anne-mari hyryläinen, george mallory, gota miura, nick symmonds, steve williams
+
+问题ID: 328
+问题: Olympic Cycling Medalists and Tour de France Champions
+执行成功: 否
+执行失败
+
+问题ID: 329
+问题: Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 330
+问题: Tennis players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 94424, 94425, 2637, 12, 19...
+未覆盖的答案: gigi fernandez, mary joe fernandez, andy murray, serena williams, venus williams
+
+问题ID: 331
+问题: Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 332
+问题: Archers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 333
+问题: Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 334
+问题: Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 335
+问题: Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: artur dmitriyev, katya gordeyeva, sergey grinkov, scott moir, tessa virtue
+
+问题ID: 336
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Bohemia, Tilemachos Karakalos, Sofya Velikaya, Fabio Dal Zotto, Anja Fichtel...
+覆盖的答案: nedo nadi
+
+问题ID: 337
+问题: Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 338
+问题: Olympians Who Played in the Cricket World Cup
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Philip Tomalin, John Symes, Alfred Schneidau, Douglas Robinson, 17825...
+未覆盖的答案: suzie bates, sunette viljoen
+
+问题ID: 339
+问题: Olympians Killed in the Katyn Massacre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: józef baran-bilewski, wojciech bursa, zdzisław dziadulski, zdzisław kawecki, aleksander kowalski, marian spojda, stanisław urban
+
+问题ID: 340
+问题: Snowboarders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 341
+问题: Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Rudolf Vesper, Carl Westergren, Kristjan Palusalu, Johan Richthoff, John Spellman...
+覆盖的答案: ivar johansson, kristjan palusalu, rudolf svensson
+未覆盖的答案: wilfried dietrich, nikolaus hirschl, jan karlsson, august neo, daniel robin
+
+问题ID: 342
+问题: Olympians Who Won Academy Awards (Oscars)
+执行成功: 否
+执行失败
+
+问题ID: 343
+问题: Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: jamie anderson, anna gasser, chloe kim, ester ledecká, philipp schoch, pierre vaultier, seth wescott, shaun white
+
+问题ID: 344
+问题: Olympians Who Ran for President of the United States (POTUS)
+执行成功: 否
+执行失败
+
+
+K = 2 详细分析:
+--------------------------------------------------------------------------------
+问题ID: 231
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+执行成功: 否
+执行失败
+
+问题ID: 232
+问题: Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 233
+问题: Badminton players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 112866, 121932, 2103168, 105855, 2502690...
+未覆盖的答案: viktor axelsen, fu haifeng, gao ling, ge fei, gu jun, lee yang, lin dan, wang chi-lin, zhang jun, zhang ning
+
+问题ID: 234
+问题: Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 35117, 35122, 34739, 34890, 107397...
+未覆盖的答案: lars hall, andrey moiseyev
+
+问题ID: 235
+问题: Olympians Who Won Olympic, NCAA and NBA Basketball Titles
+执行成功: 否
+执行失败
+
+问题ID: 236
+问题: Olympic Divers - Individual Double Champions, Different Years
+执行成功: 否
+执行失败
+
+问题ID: 237
+问题: Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 135390, 129481, 142629, 129478, 142654...
+未覆盖的答案: michaela blyde, theresa fitzpatrick-setefano, sarah goss-hirini, tyla nathan-wong-king, risi pouri-lane, alena saili, jerry tuwai, stacey waaka-fluhler, portia woodman-wickliffe
+
+问题ID: 238
+问题: Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 239
+问题: Basketball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 240
+问题: Water Polo players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: aleksey barkalov, ottó boros, dezső gyarmati, aleksandr kabanov, tivadar kanizsa, györgy kárpáti, mihály mayer, vyacheslav sobchenko
+
+问题ID: 241
+问题: Sailors who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 242
+问题: Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 243
+问题: Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 245
+问题: Olympians Who Played in Tarzan Movies
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Herman Harold BRIX, John Collier CALHOUN, Donald George BRAGG, Eleanor HOLM, Johnny WEISSMULLER...
+覆盖的答案: eleanor holm, johnny weissmuller
+未覆盖的答案: don bragg, herman brix, buster crabbe, glenn morris
+
+问题ID: 246
+问题: Olympic Champion Golfers Who Won Major Championships
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 2506025, 130937, 131287, 147419, 144178...
+未覆盖的答案: chandler egan, lydia ko, nelly korda, park in-bi, justin rose, scottie scheffler
+
+问题ID: 247
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 248
+问题: Rowers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 249
+问题: Olympic Fencers - Winning Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 250
+问题: Baseball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 251
+问题: Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 252
+问题: Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)
+执行成功: 否
+执行失败
+
+问题ID: 253
+问题: Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics
+执行成功: 否
+执行失败
+
+问题ID: 254
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: manuel díaz, nedo nadi
+未覆盖的答案: aldo nadi, oreste puliti
+
+问题ID: 255
+问题: Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 111080, 110442...
+未覆盖的答案: lizzy yarnold
+
+问题ID: 256
+问题: Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: chen zhong, hwang gyeong-seon, jade jones, ulugbek rashitov, panipak wongpattanakit, wu jingyu
+
+问题ID: 257
+问题: Luge athletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 258
+问题: Weightlifters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Italy, Water Polo, Men, Yugoslavia, Serbia, United States...
+未覆盖的答案: akakios kakiasvili, long qingquan
+
+问题ID: 259
+问题: Olympians Who Participated in Formula One Races
+执行成功: 否
+执行失败
+
+问题ID: 260
+问题: Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 261
+问题: Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 262
+问题: Wrestlers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 263
+问题: Olympians Who Were on the Titanic
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: cosmo duff-gordon, dick williams
+
+问题ID: 264
+问题: Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Magdalena SCHMIDT...
+未覆盖的答案: simone biles, huang xu, sergey kharkov, mario lertora, li xiaopeng, tamara manina, yang wei
+
+问题ID: 265
+问题: Olympians Who Were Head of State
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: felipe, príncipe de asturias, juan carlos, príncipe de españa, albert, prince grimaldi, kronprins harald, crown prince konstantinos, olav, kronprins av norge, pál schmitt, marcus stephen
+
+问题ID: 266
+问题: Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner
+执行成功: 否
+执行失败
+
+问题ID: 267
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 268
+问题: Curlers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eva lund, cathrine norberg-lindahl, anette norberg, anna svärd-le moine
+
+问题ID: 269
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman
+执行成功: 否
+执行失败
+
+问题ID: 270
+问题: Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Slovakia...
+未覆盖的答案: tony estanguet, michal martikán
+
+问题ID: 271
+问题: Olympians Who Have a Town Named After Them
+执行成功: 否
+执行失败
+
+问题ID: 272
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event
+执行成功: 否
+执行失败
+
+问题ID: 273
+问题: Olympic Fencers - Winning Medals, Foil/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 274
+问题: Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 275
+问题: Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 276
+问题: Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kjetil andré aamodt, vreni schneider
+
+问题ID: 277
+问题: Olympians Who Set a World Record in Speed Skating
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Léon Quaglia, Sverre Farstad, Matteo Anesi•Enrico Fabris•Ippolito Sanfratello, Yury Klyuyev, Piet Kleine...
+覆盖的答案: ihar zhaliasouski
+未覆盖的答案: falko zandstra, gabi zange-schönbrunn, zhang hong
+
+问题ID: 278
+问题: Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 279
+问题: Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: yuto horigome, keegan palmer
+
+问题ID: 280
+问题: Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 281
+问题: Olympians Who Set a World Record in Long Course Swimming
+执行成功: 否
+执行失败
+
+问题ID: 282
+问题: Rugby players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 283
+问题: Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 284
+问题: Olympic Divers - Individual Double Champions, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 285
+问题: Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 286
+问题: Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships
+执行成功: 否
+执行失败
+
+问题ID: 287
+问题: Baseball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 288
+问题: Olympians Who Won the Super Bowl
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Osamu Watanabe, Randy Williams, Manu Bhaker, István Kozma, Piet Kleine...
+覆盖的答案: mike carter, nate ebner, bob hayes
+
+问题ID: 289
+问题: Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 80966, 80870, 81919, 97826, 81551...
+未覆盖的答案: kjetil andré aamodt, deborah compagnoni, michelle gisin, maria höfl-riesch, janica kostelić, matthias mayer, katja seizinger, alberto tomba
+
+问题ID: 290
+问题: Equestrianism: Competing in all events
+执行成功: 否
+执行失败
+
+问题ID: 291
+问题: Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title
+执行成功: 否
+执行失败
+
+问题ID: 292
+问题: Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 293
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+未覆盖的答案: aldo nadi
+
+问题ID: 294
+问题: Triathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 51213, 1302779, 106528, 135748, 106503...
+未覆盖的答案: alistair brownlee
+
+问题ID: 295
+问题: Archers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 296
+问题: Olympians Who Were Head of Government
+执行成功: 否
+执行失败
+
+问题ID: 297
+问题: Olympians Who Have Won a Nobel Prize
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Philip John NOEL-BAKER, Jenö ZSIGMONDY, Rikizo Takata, Simon LESSING, Georg BRANTING...
+未覆盖的答案: philip baker
+
+问题ID: 298
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: cyrille verbrugge
+
+问题ID: 299
+问题: Olympians Who Won a Medal at the European Archery Championships
+执行成功: 否
+执行失败
+
+问题ID: 300
+问题: Olympic Fencers - Winning Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Olha Kharlan...
+覆盖的答案: roger ducret, gabriel, comte de la falaise, ioannis raisis, albertson van zo post, cyrille verbrugge
+
+问题ID: 301
+问题: BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 135246, 126753, 2505960, 113299, 121888...
+未覆盖的答案: craig adair, mariana pajón
+
+问题ID: 302
+问题: Olympians Who Have Topped the English FA Premier League Goal Scoring List
+执行成功: 否
+执行失败
+
+问题ID: 303
+问题: Olympians Who Competed in the Boat Race
+执行成功: 否
+执行失败
+
+问题ID: 304
+问题: Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 305
+问题: Olympians Who Have Flown into Space
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Michael JOHNSON, Javier MASCHERANO, Jukka RAUHALA, ZHANG Jike, Giuseppe CINDOLO...
+未覆盖的答案: jon goodwin
+
+问题ID: 306
+问题: Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 307
+问题: Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 308
+问题: Olympians Who Fought at WrestleMania
+执行成功: 否
+执行失败
+
+问题ID: 309
+问题: Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines
+执行成功: 否
+执行失败
+
+问题ID: 310
+问题: Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: marit bjørgen, bjørn dæhlie, nina gavrylyuk, sixten jernberg, kristen skjeldal, raisa smetanina
+
+问题ID: 311
+问题: Volleyball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 109261, 129345, 122684, 109162, 53330...
+未覆盖的答案: giovane, maurício, serginho
+
+问题ID: 312
+问题: Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: alex bilodeau, david wise
+
+问题ID: 313
+问题: Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 103662, 13057, 16939, 90334, 113245...
+未覆盖的答案: fabian cancellara
+
+问题ID: 314
+问题: Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eric frenzel, felix gottwald, johan grøttumsbraaten, takanori kono, kenji ogiwara, mario stecher, ulrich wehling
+
+问题ID: 315
+问题: Divers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 316
+问题: Tennis players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 94255, 136374, 2664, 117576, 94424...
+未覆盖的答案: reggie doherty, serena williams, venus williams
+
+问题ID: 317
+问题: Olympians Included on the Voyager 1 and 2 Golden Record
+执行成功: 否
+执行失败
+
+问题ID: 318
+问题: Golfers Who Recorded Holes-in-One at the Olympic Games
+执行成功: 否
+执行失败
+
+问题ID: 319
+问题: Footballers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 320
+问题: Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World (Work in progress)
+执行成功: 否
+执行失败
+
+问题ID: 321
+问题: Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 322
+问题: Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 123678, 2504450, 120404, 107890, 132102...
+未覆盖的答案: anastasiya bliznyuk, yevgeniya kanayeva, nataliya lavrova, yelena posevina
+
+问题ID: 323
+问题: Biathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 324
+问题: Judokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: teddy riner
+
+问题ID: 325
+问题: Inventions by and named after Olympians
+执行成功: 否
+执行失败
+
+问题ID: 326
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: gabriel, comte de la falaise, nedo nadi, cyrille verbrugge
+未覆盖的答案: marcello bertinetti, aldo nadi, dino urbani
+
+问题ID: 327
+问题: Olympians Who Have Climbed Mount Everest
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gota MIURA, Wilhelm Ehmer...
+覆盖的答案: gota miura
+未覆盖的答案: manuela di centa, sabrina filzmoser, anne-mari hyryläinen, george mallory, nick symmonds, steve williams
+
+问题ID: 328
+问题: Olympic Cycling Medalists and Tour de France Champions
+执行成功: 否
+执行失败
+
+问题ID: 329
+问题: Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 330
+问题: Tennis players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 331
+问题: Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 332
+问题: Archers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 333
+问题: Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 334
+问题: Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 335
+问题: Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: artur dmitriyev, katya gordeyeva, sergey grinkov, scott moir, tessa virtue
+
+问题ID: 336
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+
+问题ID: 337
+问题: Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 338
+问题: Olympians Who Played in the Cricket World Cup
+执行成功: 否
+执行失败
+
+问题ID: 339
+问题: Olympians Killed in the Katyn Massacre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Józef Krudowski...
+未覆盖的答案: józef baran-bilewski, wojciech bursa, zdzisław dziadulski, zdzisław kawecki, aleksander kowalski, marian spojda, stanisław urban
+
+问题ID: 340
+问题: Snowboarders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 341
+问题: Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 342
+问题: Olympians Who Won Academy Awards (Oscars)
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 14959, 53843, 43656, 77662, 86714...
+未覆盖的答案: kobe bryant, michelle yeoh
+
+问题ID: 343
+问题: Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: jamie anderson, anna gasser, chloe kim, ester ledecká, philipp schoch, pierre vaultier, seth wescott, shaun white
+
+问题ID: 344
+问题: Olympians Who Ran for President of the United States (POTUS)
+执行成功: 否
+执行失败
+
+
+K = 3 详细分析:
+--------------------------------------------------------------------------------
+问题ID: 231
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+执行成功: 否
+执行失败
+
+问题ID: 232
+问题: Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 233
+问题: Badminton players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 234
+问题: Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 35117, 35122, 34739, 34843, 107397...
+未覆盖的答案: lars hall, andrey moiseyev
+
+问题ID: 235
+问题: Olympians Who Won Olympic, NCAA and NBA Basketball Titles
+执行成功: 否
+执行失败
+
+问题ID: 236
+问题: Olympic Divers - Individual Double Champions, Different Years
+执行成功: 否
+执行失败
+
+问题ID: 237
+问题: Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 238
+问题: Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 239
+问题: Basketball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: United States, Soviet Union...
+未覆盖的答案: swin cash, anthony davis, teresa edwards, patrick ewing, lebron james, michael jordan, jason kidd, katrina mcclain, delisha milton-jones, chris mullin
+
+问题ID: 240
+问题: Water Polo players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 241
+问题: Sailors who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 242
+问题: Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 243
+问题: Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 245
+问题: Olympians Who Played in Tarzan Movies
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Herman Harold BRIX, John Collier CALHOUN, Donald George BRAGG, Eleanor HOLM, Johnny WEISSMULLER...
+覆盖的答案: eleanor holm, johnny weissmuller
+未覆盖的答案: don bragg, herman brix, buster crabbe, glenn morris
+
+问题ID: 246
+问题: Olympic Champion Golfers Who Won Major Championships
+执行成功: 否
+执行失败
+
+问题ID: 247
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 248
+问题: Rowers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 249
+问题: Olympic Fencers - Winning Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 250
+问题: Baseball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 251
+问题: Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 252
+问题: Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)
+执行成功: 否
+执行失败
+
+问题ID: 253
+问题: Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics
+执行成功: 否
+执行失败
+
+问题ID: 254
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: manuel díaz, nedo nadi
+未覆盖的答案: aldo nadi, oreste puliti
+
+问题ID: 255
+问题: Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 256
+问题: Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 257
+问题: Luge athletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 258
+问题: Weightlifters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 259
+问题: Olympians Who Participated in Formula One Races
+执行成功: 否
+执行失败
+
+问题ID: 260
+问题: Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 261
+问题: Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 262
+问题: Wrestlers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Nikostratos, (…), Tiberius Claudius Patrobius...
+覆盖的答案: bruce baumgartner, sergey beloglazov, andrzej wroński
+
+问题ID: 263
+问题: Olympians Who Were on the Titanic
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: cosmo duff-gordon, dick williams
+
+问题ID: 264
+问题: Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 265
+问题: Olympians Who Were Head of State
+执行成功: 否
+执行失败
+
+问题ID: 266
+问题: Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner
+执行成功: 否
+执行失败
+
+问题ID: 267
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 268
+问题: Curlers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eva lund, cathrine norberg-lindahl, anette norberg, anna svärd-le moine
+
+问题ID: 269
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman
+执行成功: 否
+执行失败
+
+问题ID: 270
+问题: Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Guillermo Rigondeaux, Ariel Hernández, Nicola Adams, Oleg Saitov, Mario Kindelán...
+未覆盖的答案: tony estanguet, michal martikán
+
+问题ID: 271
+问题: Olympians Who Have a Town Named After Them
+执行成功: 否
+执行失败
+
+问题ID: 272
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event
+执行成功: 否
+执行失败
+
+问题ID: 273
+问题: Olympic Fencers - Winning Medals, Foil/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 274
+问题: Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 275
+问题: Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 276
+问题: Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kjetil andré aamodt, vreni schneider
+
+问题ID: 277
+问题: Olympians Who Set a World Record in Speed Skating
+执行成功: 否
+执行失败
+
+问题ID: 278
+问题: Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 279
+问题: Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 280
+问题: Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 281
+问题: Olympians Who Set a World Record in Long Course Swimming
+执行成功: 否
+执行失败
+
+问题ID: 282
+问题: Rugby players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 283
+问题: Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 284
+问题: Olympic Divers - Individual Double Champions, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 285
+问题: Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 286
+问题: Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships
+执行成功: 否
+执行失败
+
+问题ID: 287
+问题: Baseball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 288
+问题: Olympians Who Won the Super Bowl
+执行成功: 否
+执行失败
+
+问题ID: 289
+问题: Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 80966, 80870, 81919, 81551, 96323...
+未覆盖的答案: kjetil andré aamodt, deborah compagnoni, michelle gisin, maria höfl-riesch, janica kostelić, matthias mayer, katja seizinger, alberto tomba
+
+问题ID: 290
+问题: Equestrianism: Competing in all events
+执行成功: 否
+执行失败
+
+问题ID: 291
+问题: Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title
+执行成功: 否
+执行失败
+
+问题ID: 292
+问题: Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 293
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+未覆盖的答案: aldo nadi
+
+问题ID: 294
+问题: Triathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 295
+问题: Archers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 296
+问题: Olympians Who Were Head of Government
+执行成功: 否
+执行失败
+
+问题ID: 297
+问题: Olympians Who Have Won a Nobel Prize
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Philip John NOEL-BAKER, Jenö ZSIGMONDY, Rikizo Takata, Simon LESSING, Georg BRANTING...
+未覆盖的答案: philip baker
+
+问题ID: 298
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: cyrille verbrugge
+
+问题ID: 299
+问题: Olympians Who Won a Medal at the European Archery Championships
+执行成功: 否
+执行失败
+
+问题ID: 300
+问题: Olympic Fencers - Winning Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Olha Kharlan...
+覆盖的答案: roger ducret, gabriel, comte de la falaise, ioannis raisis, albertson van zo post, cyrille verbrugge
+
+问题ID: 301
+问题: BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 135246, 126753, 113299, 2505960, 121888...
+未覆盖的答案: craig adair, mariana pajón
+
+问题ID: 302
+问题: Olympians Who Have Topped the English FA Premier League Goal Scoring List
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 67301, 41157, Stephen Thomas "Steve"•Haberman, Gregorio•Rojo Sagredo...
+未覆盖的答案: sergio agüero, pierre-emerick aubameyang, cristiano ronaldo, sadio mané, mohamed salah, son heung-min, luis suárez, carlos tévez
+
+问题ID: 303
+问题: Olympians Who Competed in the Boat Race
+执行成功: 否
+执行失败
+
+问题ID: 304
+问题: Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 305
+问题: Olympians Who Have Flown into Space
+执行成功: 否
+执行失败
+
+问题ID: 306
+问题: Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 307
+问题: Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 122888, 94405, 94399, 51773, 94592...
+未覆盖的答案: misty may-treanor, kerri walsh jennings
+
+问题ID: 308
+问题: Olympians Who Fought at WrestleMania
+执行成功: 否
+执行失败
+
+问题ID: 309
+问题: Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines
+执行成功: 否
+执行失败
+
+问题ID: 310
+问题: Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: marit bjørgen, bjørn dæhlie, nina gavrylyuk, sixten jernberg, kristen skjeldal, raisa smetanina
+
+问题ID: 311
+问题: Volleyball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 114333, 109330, 53334, 94811, 112118...
+未覆盖的答案: giovane, maurício, serginho
+
+问题ID: 312
+问题: Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: alex bilodeau, david wise
+
+问题ID: 313
+问题: Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 314
+问题: Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eric frenzel, felix gottwald, johan grøttumsbraaten, takanori kono, kenji ogiwara, mario stecher, ulrich wehling
+
+问题ID: 315
+问题: Divers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: lin yue
+
+问题ID: 316
+问题: Tennis players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 317
+问题: Olympians Included on the Voyager 1 and 2 Golden Record
+执行成功: 否
+执行失败
+
+问题ID: 318
+问题: Golfers Who Recorded Holes-in-One at the Olympic Games
+执行成功: 否
+执行失败
+
+问题ID: 319
+问题: Footballers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 320
+问题: Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World (Work in progress)
+执行成功: 否
+执行失败
+
+问题ID: 321
+问题: Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 322
+问题: Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 323
+问题: Biathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ole einar bjørndalen, tarjei bø, sven fischer, martin fourcade, ricco groß, halvard hanevold
+
+问题ID: 324
+问题: Judokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: teddy riner
+
+问题ID: 325
+问题: Inventions by and named after Olympians
+执行成功: 否
+执行失败
+
+问题ID: 326
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: gabriel, comte de la falaise, nedo nadi, cyrille verbrugge
+未覆盖的答案: marcello bertinetti, aldo nadi, dino urbani
+
+问题ID: 327
+问题: Olympians Who Have Climbed Mount Everest
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gota MIURA, Wilhelm Ehmer...
+覆盖的答案: gota miura
+未覆盖的答案: manuela di centa, sabrina filzmoser, anne-mari hyryläinen, george mallory, nick symmonds, steve williams
+
+问题ID: 328
+问题: Olympic Cycling Medalists and Tour de France Champions
+执行成功: 否
+执行失败
+
+问题ID: 329
+问题: Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 330
+问题: Tennis players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 331
+问题: Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kristin armstrong, vyacheslav yekimov, leontien zijlaard-van moorsel
+
+问题ID: 332
+问题: Archers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 333
+问题: Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 334
+问题: Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 335
+问题: Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 336
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+
+问题ID: 337
+问题: Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 338
+问题: Olympians Who Played in the Cricket World Cup
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 17825, 3100002, 17830, 17917, 17915...
+未覆盖的答案: suzie bates, sunette viljoen
+
+问题ID: 339
+问题: Olympians Killed in the Katyn Massacre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Józef Krudowski...
+未覆盖的答案: józef baran-bilewski, wojciech bursa, zdzisław dziadulski, zdzisław kawecki, aleksander kowalski, marian spojda, stanisław urban
+
+问题ID: 340
+问题: Snowboarders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 341
+问题: Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 342
+问题: Olympians Who Won Academy Awards (Oscars)
+执行成功: 否
+执行失败
+
+问题ID: 343
+问题: Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: jamie anderson, anna gasser, chloe kim, ester ledecká, philipp schoch, pierre vaultier, seth wescott, shaun white
+
+问题ID: 344
+问题: Olympians Who Ran for President of the United States (POTUS)
+执行成功: 否
+执行失败
+
+
+K = 4 详细分析:
+--------------------------------------------------------------------------------
+问题ID: 231
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Helen Stephens, Ray Barbuti, Im Si-Hyeon, Mel Patton, Valerie Brisco-Hooks...
+未覆盖的答案: luís mena e silva, hans von rosen, fritz thiedemann
+
+问题ID: 232
+问题: Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 233
+问题: Badminton players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 234
+问题: Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 235
+问题: Olympians Who Won Olympic, NCAA and NBA Basketball Titles
+执行成功: 否
+执行失败
+
+问题ID: 236
+问题: Olympic Divers - Individual Double Champions, Different Years
+执行成功: 否
+执行失败
+
+问题ID: 237
+问题: Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 238
+问题: Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 239
+问题: Basketball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 103097, 5336, 108542, 90093, 103095...
+未覆盖的答案: swin cash, anthony davis, teresa edwards, patrick ewing, lebron james, michael jordan, jason kidd, katrina mcclain, delisha milton-jones, chris mullin
+
+问题ID: 240
+问题: Water Polo players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 241
+问题: Sailors who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 242
+问题: Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 243
+问题: Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 245
+问题: Olympians Who Played in Tarzan Movies
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Herman Harold BRIX, John Collier CALHOUN, Donald George BRAGG, Eleanor HOLM, Johnny WEISSMULLER...
+覆盖的答案: eleanor holm, johnny weissmuller
+未覆盖的答案: don bragg, herman brix, buster crabbe, glenn morris
+
+问题ID: 246
+问题: Olympic Champion Golfers Who Won Major Championships
+执行成功: 否
+执行失败
+
+问题ID: 247
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 248
+问题: Rowers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 249
+问题: Olympic Fencers - Winning Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 250
+问题: Baseball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 251
+问题: Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 252
+问题: Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)
+执行成功: 否
+执行失败
+
+问题ID: 253
+问题: Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics
+执行成功: 否
+执行失败
+
+问题ID: 254
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: manuel díaz, nedo nadi
+未覆盖的答案: aldo nadi, oreste puliti
+
+问题ID: 255
+问题: Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 110427, 110426...
+未覆盖的答案: lizzy yarnold
+
+问题ID: 256
+问题: Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: chen zhong, hwang gyeong-seon, jade jones, ulugbek rashitov, panipak wongpattanakit, wu jingyu
+
+问题ID: 257
+问题: Luge athletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 258
+问题: Weightlifters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 259
+问题: Olympians Who Participated in Formula One Races
+执行成功: 否
+执行失败
+
+问题ID: 260
+问题: Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 261
+问题: Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Quan Hongchan, Klaus Dibiasi, People's Republic of China, Cao Yuan, Xie Siyi...
+未覆盖的答案: harry boldt, nadine capellmann, andré jousseaumé, reiner klimke, martin schaudt, isabell werth
+
+问题ID: 262
+问题: Wrestlers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 60571, 60399, 2800241, 57906, 2800471...
+未覆盖的答案: bruce baumgartner, sergey beloglazov, andrzej wroński
+
+问题ID: 263
+问题: Olympians Who Were on the Titanic
+执行成功: 否
+执行失败
+
+问题ID: 264
+问题: Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Michael Diamond, Tamás Darnyi, Alberto Tomba...
+未覆盖的答案: simone biles, huang xu, sergey kharkov, mario lertora, li xiaopeng, tamara manina, yang wei
+
+问题ID: 265
+问题: Olympians Who Were Head of State
+执行成功: 否
+执行失败
+
+问题ID: 266
+问题: Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner
+执行成功: 否
+执行失败
+
+问题ID: 267
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 268
+问题: Curlers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 269
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman
+执行成功: 否
+执行失败
+
+问题ID: 270
+问题: Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 271
+问题: Olympians Who Have a Town Named After Them
+执行成功: 否
+执行失败
+
+问题ID: 272
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event
+执行成功: 否
+执行失败
+
+问题ID: 273
+问题: Olympic Fencers - Winning Medals, Foil/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 274
+问题: Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 275
+问题: Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 276
+问题: Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 277
+问题: Olympians Who Set a World Record in Speed Skating
+执行成功: 否
+执行失败
+
+问题ID: 278
+问题: Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 279
+问题: Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 280
+问题: Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 281
+问题: Olympians Who Set a World Record in Long Course Swimming
+执行成功: 否
+执行失败
+
+问题ID: 282
+问题: Rugby players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 283
+问题: Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 284
+问题: Olympic Divers - Individual Double Champions, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 285
+问题: Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 286
+问题: Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships
+执行成功: 否
+执行失败
+
+问题ID: 287
+问题: Baseball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 288
+问题: Olympians Who Won the Super Bowl
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Diogenes, Philon, Hippokrates, Publius Cornelius Ariston, Timokrates...
+覆盖的答案: mike carter, nate ebner, bob hayes
+
+问题ID: 289
+问题: Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 80966, 80870, 81919, 97826, 81551...
+未覆盖的答案: kjetil andré aamodt, deborah compagnoni, michelle gisin, maria höfl-riesch, janica kostelić, matthias mayer, katja seizinger, alberto tomba
+
+问题ID: 290
+问题: Equestrianism: Competing in all events
+执行成功: 否
+执行失败
+
+问题ID: 291
+问题: Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title
+执行成功: 否
+执行失败
+
+问题ID: 292
+问题: Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 293
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+未覆盖的答案: aldo nadi
+
+问题ID: 294
+问题: Triathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 94454, 51213, 1302779...
+未覆盖的答案: alistair brownlee
+
+问题ID: 295
+问题: Archers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 296
+问题: Olympians Who Were Head of Government
+执行成功: 否
+执行失败
+
+问题ID: 297
+问题: Olympians Who Have Won a Nobel Prize
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Charles Edmun TATHAM, Simon LESSING, Saburo Hamada, Stevan HORVAT, Steve PODBORSKI...
+未覆盖的答案: philip baker
+
+问题ID: 298
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: cyrille verbrugge
+
+问题ID: 299
+问题: Olympians Who Won a Medal at the European Archery Championships
+执行成功: 否
+执行失败
+
+问题ID: 300
+问题: Olympic Fencers - Winning Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Olha Kharlan...
+覆盖的答案: roger ducret, gabriel, comte de la falaise, ioannis raisis, albertson van zo post, cyrille verbrugge
+
+问题ID: 301
+问题: BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 135246, 126753, 113299, 2505960, 121888...
+未覆盖的答案: craig adair, mariana pajón
+
+问题ID: 302
+问题: Olympians Who Have Topped the English FA Premier League Goal Scoring List
+执行成功: 否
+执行失败
+
+问题ID: 303
+问题: Olympians Who Competed in the Boat Race
+执行成功: 否
+执行失败
+
+问题ID: 304
+问题: Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: guido fulst, lutz heßlich, jens lehmann, joan llaneras, bradley wiggins
+
+问题ID: 305
+问题: Olympians Who Have Flown into Space
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Michael JOHNSON, Javier MASCHERANO, Jukka RAUHALA, ZHANG Jike, Giuseppe CINDOLO...
+未覆盖的答案: jon goodwin
+
+问题ID: 306
+问题: Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 307
+问题: Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 122888, 94405, 94399, 51773, 94592...
+未覆盖的答案: misty may-treanor, kerri walsh jennings
+
+问题ID: 308
+问题: Olympians Who Fought at WrestleMania
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Stanisław Szostecki, 60606, Väinö Perttunen, 60881, 117129...
+覆盖的答案: mark henry, jr.
+未覆盖的答案: kurt angle, allen coage, floyd mayweather, ken patera, ronda rousey
+
+问题ID: 309
+问题: Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines
+执行成功: 否
+执行失败
+
+问题ID: 310
+问题: Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: marit bjørgen, bjørn dæhlie, nina gavrylyuk, sixten jernberg, kristen skjeldal, raisa smetanina
+
+问题ID: 311
+问题: Volleyball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 131716, 94811, 52969, 112118, 106800...
+未覆盖的答案: giovane, maurício, serginho
+
+问题ID: 312
+问题: Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 313
+问题: Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 103662, 13057, 113245, 130650, 113167...
+未覆盖的答案: fabian cancellara
+
+问题ID: 314
+问题: Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eric frenzel, felix gottwald, johan grøttumsbraaten, takanori kono, kenji ogiwara, mario stecher, ulrich wehling
+
+问题ID: 315
+问题: Divers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 316
+问题: Tennis players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 317
+问题: Olympians Included on the Voyager 1 and 2 Golden Record
+执行成功: 否
+执行失败
+
+问题ID: 318
+问题: Golfers Who Recorded Holes-in-One at the Olympic Games
+执行成功: 否
+执行失败
+
+问题ID: 319
+问题: Footballers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 320
+问题: Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World (Work in progress)
+执行成功: 否
+执行失败
+
+问题ID: 321
+问题: Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 322
+问题: Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 323
+问题: Biathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 128042, 128679, 85733, 118582, 98275...
+未覆盖的答案: ole einar bjørndalen, tarjei bø, sven fischer, martin fourcade, ricco groß, halvard hanevold
+
+问题ID: 324
+问题: Judokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 325
+问题: Inventions by and named after Olympians
+执行成功: 否
+执行失败
+
+问题ID: 326
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: gabriel, comte de la falaise, nedo nadi, cyrille verbrugge
+未覆盖的答案: marcello bertinetti, aldo nadi, dino urbani
+
+问题ID: 327
+问题: Olympians Who Have Climbed Mount Everest
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gota MIURA, Wilhelm Ehmer...
+覆盖的答案: gota miura
+未覆盖的答案: manuela di centa, sabrina filzmoser, anne-mari hyryläinen, george mallory, nick symmonds, steve williams
+
+问题ID: 328
+问题: Olympic Cycling Medalists and Tour de France Champions
+执行成功: 否
+执行失败
+
+问题ID: 329
+问题: Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 330
+问题: Tennis players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 331
+问题: Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 332
+问题: Archers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 333
+问题: Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 334
+问题: Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 335
+问题: Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: artur dmitriyev, katya gordeyeva, sergey grinkov, scott moir, tessa virtue
+
+问题ID: 336
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+
+问题ID: 337
+问题: Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 338
+问题: Olympians Who Played in the Cricket World Cup
+执行成功: 否
+执行失败
+
+问题ID: 339
+问题: Olympians Killed in the Katyn Massacre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Józef Krudowski...
+未覆盖的答案: józef baran-bilewski, wojciech bursa, zdzisław dziadulski, zdzisław kawecki, aleksander kowalski, marian spojda, stanisław urban
+
+问题ID: 340
+问题: Snowboarders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 341
+问题: Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 342
+问题: Olympians Who Won Academy Awards (Oscars)
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Seibo KITAMURA, George PATTON, Ekke Ozlberger, Waldemar BASZANOWSKI, John LECLAIR...
+未覆盖的答案: kobe bryant, michelle yeoh
+
+问题ID: 343
+问题: Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 344
+问题: Olympians Who Ran for President of the United States (POTUS)
+执行成功: 否
+执行失败
+
+
+K = 5 详细分析:
+--------------------------------------------------------------------------------
+问题ID: 231
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+执行成功: 否
+执行失败
+
+问题ID: 232
+问题: Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 233
+问题: Badminton players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 234
+问题: Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 235
+问题: Olympians Who Won Olympic, NCAA and NBA Basketball Titles
+执行成功: 否
+执行失败
+
+问题ID: 236
+问题: Olympic Divers - Individual Double Champions, Different Years
+执行成功: 否
+执行失败
+
+问题ID: 237
+问题: Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 238
+问题: Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 239
+问题: Basketball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: swin cash, anthony davis, teresa edwards, patrick ewing, lebron james, michael jordan, jason kidd, katrina mcclain, delisha milton-jones, chris mullin
+
+问题ID: 240
+问题: Water Polo players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 241
+问题: Sailors who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 242
+问题: Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 243
+问题: Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 245
+问题: Olympians Who Played in Tarzan Movies
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Herman Harold BRIX, John Collier CALHOUN, Donald George BRAGG, Eleanor HOLM, Johnny WEISSMULLER...
+覆盖的答案: eleanor holm, johnny weissmuller
+未覆盖的答案: don bragg, herman brix, buster crabbe, glenn morris
+
+问题ID: 246
+问题: Olympic Champion Golfers Who Won Major Championships
+执行成功: 否
+执行失败
+
+问题ID: 247
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 248
+问题: Rowers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 249
+问题: Olympic Fencers - Winning Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 250
+问题: Baseball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Juan PADILLA, Alberto HERNANDEZ...
+覆盖的答案: alberto hernández, juan padilla
+未覆盖的答案: omar ajete, josé antonio estrada, orestes kindelán, omar linares, antonio pacheco, luis ulacia, lázaro vargas
+
+问题ID: 251
+问题: Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ludger beerbaum, scott brash, ben maher, franke sloothaak, hans günter winkler
+
+问题ID: 252
+问题: Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)
+执行成功: 否
+执行失败
+
+问题ID: 253
+问题: Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics
+执行成功: 否
+执行失败
+
+问题ID: 254
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: manuel díaz, nedo nadi
+未覆盖的答案: aldo nadi, oreste puliti
+
+问题ID: 255
+问题: Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 256
+问题: Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: chen zhong, hwang gyeong-seon, jade jones, ulugbek rashitov, panipak wongpattanakit, wu jingyu
+
+问题ID: 257
+问题: Luge athletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 258
+问题: Weightlifters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 259
+问题: Olympians Who Participated in Formula One Races
+执行成功: 否
+执行失败
+
+问题ID: 260
+问题: Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 261
+问题: Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: harry boldt, nadine capellmann, andré jousseaumé, reiner klimke, martin schaudt, isabell werth
+
+问题ID: 262
+问题: Wrestlers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: bruce baumgartner, sergey beloglazov, andrzej wroński
+
+问题ID: 263
+问题: Olympians Who Were on the Titanic
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Edward DOUGLAS...
+未覆盖的答案: cosmo duff-gordon, dick williams
+
+问题ID: 264
+问题: Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Michael Diamond, Tamás Darnyi, Alberto Tomba...
+未覆盖的答案: simone biles, huang xu, sergey kharkov, mario lertora, li xiaopeng, tamara manina, yang wei
+
+问题ID: 265
+问题: Olympians Who Were Head of State
+执行成功: 否
+执行失败
+
+问题ID: 266
+问题: Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner
+执行成功: 否
+执行失败
+
+问题ID: 267
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 268
+问题: Curlers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eva lund, cathrine norberg-lindahl, anette norberg, anna svärd-le moine
+
+问题ID: 269
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Frederick Humphreys, Erik Malmberg, Yaşar Erkan, Johan Richthoff, Jack Niflot...
+覆盖的答案: kalle anttila, ivar johansson, kristjan palusalu
+
+问题ID: 270
+问题: Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 271
+问题: Olympians Who Have a Town Named After Them
+执行成功: 否
+执行失败
+
+问题ID: 272
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event
+执行成功: 否
+执行失败
+
+问题ID: 273
+问题: Olympic Fencers - Winning Medals, Foil/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 274
+问题: Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 275
+问题: Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ludger beerbaum, beezie madden, lars nieberg, hans von rosen, fritz thiedemann, mclain ward, hans günter winkler
+
+问题ID: 276
+问题: Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kjetil andré aamodt, vreni schneider
+
+问题ID: 277
+问题: Olympians Who Set a World Record in Speed Skating
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Léon Quaglia, Sverre Farstad, Matteo Anesi•Enrico Fabris•Ippolito Sanfratello, Yury Klyuyev, Piet Kleine...
+覆盖的答案: ihar zhaliasouski
+未覆盖的答案: falko zandstra, gabi zange-schönbrunn, zhang hong
+
+问题ID: 278
+问题: Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 279
+问题: Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: yuto horigome, keegan palmer
+
+问题ID: 280
+问题: Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 281
+问题: Olympians Who Set a World Record in Long Course Swimming
+执行成功: 否
+执行失败
+
+问题ID: 282
+问题: Rugby players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 283
+问题: Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 284
+问题: Olympic Divers - Individual Double Champions, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 285
+问题: Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: andrás balczó, pavel lednyov, igor novikov
+
+问题ID: 286
+问题: Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships
+执行成功: 否
+执行失败
+
+问题ID: 287
+问题: Baseball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 288
+问题: Olympians Who Won the Super Bowl
+执行成功: 否
+执行失败
+
+问题ID: 289
+问题: Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 83156, 82974, 98310, 96419, 82306...
+未覆盖的答案: kjetil andré aamodt, deborah compagnoni, michelle gisin, maria höfl-riesch, janica kostelić, matthias mayer, katja seizinger, alberto tomba
+
+问题ID: 290
+问题: Equestrianism: Competing in all events
+执行成功: 否
+执行失败
+
+问题ID: 291
+问题: Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title
+执行成功: 否
+执行失败
+
+问题ID: 292
+问题: Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 293
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+未覆盖的答案: aldo nadi
+
+问题ID: 294
+问题: Triathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 295
+问题: Archers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 296
+问题: Olympians Who Were Head of Government
+执行成功: 否
+执行失败
+
+问题ID: 297
+问题: Olympians Who Have Won a Nobel Prize
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Philip John NOEL-BAKER, Jenö ZSIGMONDY, Rikizo Takata, Simon LESSING, Georg BRANTING...
+未覆盖的答案: philip baker
+
+问题ID: 298
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: cyrille verbrugge
+
+问题ID: 299
+问题: Olympians Who Won a Medal at the European Archery Championships
+执行成功: 否
+执行失败
+
+问题ID: 300
+问题: Olympic Fencers - Winning Medals, Épée/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 301
+问题: BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 302
+问题: Olympians Who Have Topped the English FA Premier League Goal Scoring List
+执行成功: 否
+执行失败
+
+问题ID: 303
+问题: Olympians Who Competed in the Boat Race
+执行成功: 否
+执行失败
+
+问题ID: 304
+问题: Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 305
+问题: Olympians Who Have Flown into Space
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Michael JOHNSON, Javier MASCHERANO, Jukka RAUHALA, ZHANG Jike, Giuseppe CINDOLO...
+未覆盖的答案: jon goodwin
+
+问题ID: 306
+问题: Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 307
+问题: Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 122888, 94405, 94399, 51773, 94592...
+未覆盖的答案: misty may-treanor, kerri walsh jennings
+
+问题ID: 308
+问题: Olympians Who Fought at WrestleMania
+执行成功: 否
+执行失败
+
+问题ID: 309
+问题: Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines
+执行成功: 否
+执行失败
+
+问题ID: 310
+问题: Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: marit bjørgen, bjørn dæhlie, nina gavrylyuk, sixten jernberg, kristen skjeldal, raisa smetanina
+
+问题ID: 311
+问题: Volleyball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 131716, 94811, 52969, 112118, 106800...
+未覆盖的答案: giovane, maurício, serginho
+
+问题ID: 312
+问题: Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 313
+问题: Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 314
+问题: Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 315
+问题: Divers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: lin yue
+
+问题ID: 316
+问题: Tennis players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 94255, 136374, 2664, 117576, 94424...
+未覆盖的答案: reggie doherty, serena williams, venus williams
+
+问题ID: 317
+问题: Olympians Included on the Voyager 1 and 2 Golden Record
+执行成功: 否
+执行失败
+
+问题ID: 318
+问题: Golfers Who Recorded Holes-in-One at the Olympic Games
+执行成功: 否
+执行失败
+
+问题ID: 319
+问题: Footballers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 320
+问题: Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World (Work in progress)
+执行成功: 否
+执行失败
+
+问题ID: 321
+问题: Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 322
+问题: Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 323
+问题: Biathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 80903, 110030, 85733, 91927, 86249...
+未覆盖的答案: ole einar bjørndalen, tarjei bø, sven fischer, martin fourcade, ricco groß, halvard hanevold
+
+问题ID: 324
+问题: Judokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: teddy riner
+
+问题ID: 325
+问题: Inventions by and named after Olympians
+执行成功: 否
+执行失败
+
+问题ID: 326
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: gabriel, comte de la falaise, nedo nadi, cyrille verbrugge
+未覆盖的答案: marcello bertinetti, aldo nadi, dino urbani
+
+问题ID: 327
+问题: Olympians Who Have Climbed Mount Everest
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gota MIURA, Wilhelm Ehmer...
+覆盖的答案: gota miura
+未覆盖的答案: manuela di centa, sabrina filzmoser, anne-mari hyryläinen, george mallory, nick symmonds, steve williams
+
+问题ID: 328
+问题: Olympic Cycling Medalists and Tour de France Champions
+执行成功: 否
+执行失败
+
+问题ID: 329
+问题: Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 330
+问题: Tennis players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 93995, 94255, 2505392, 1800098, 117458...
+未覆盖的答案: gigi fernandez, mary joe fernandez, andy murray, serena williams, venus williams
+
+问题ID: 331
+问题: Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kristin armstrong, vyacheslav yekimov, leontien zijlaard-van moorsel
+
+问题ID: 332
+问题: Archers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 333
+问题: Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ramón fonst, lucien gaudin, nedo nadi, cyrille verbrugge
+
+问题ID: 334
+问题: Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: frederick humphreys, edwin mills, james shepherd
+
+问题ID: 335
+问题: Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: artur dmitriyev, katya gordeyeva, sergey grinkov, scott moir, tessa virtue
+
+问题ID: 336
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+
+问题ID: 337
+问题: Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 338
+问题: Olympians Who Played in the Cricket World Cup
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 17825, 3100002, 17830, 17917, 17915...
+未覆盖的答案: suzie bates, sunette viljoen
+
+问题ID: 339
+问题: Olympians Killed in the Katyn Massacre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Józef Krudowski...
+未覆盖的答案: józef baran-bilewski, wojciech bursa, zdzisław dziadulski, zdzisław kawecki, aleksander kowalski, marian spojda, stanisław urban
+
+问题ID: 340
+问题: Snowboarders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: shaun white
+
+问题ID: 341
+问题: Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 342
+问题: Olympians Who Won Academy Awards (Oscars)
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Seibo KITAMURA, George PATTON, Ekke Ozlberger, Waldemar BASZANOWSKI, John LECLAIR...
+未覆盖的答案: kobe bryant, michelle yeoh
+
+问题ID: 343
+问题: Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: jamie anderson, anna gasser, chloe kim, ester ledecká, philipp schoch, pierre vaultier, seth wescott, shaun white
+
+问题ID: 344
+问题: Olympians Who Ran for President of the United States (POTUS)
+执行成功: 否
+执行失败
+
+
+K = 6 详细分析:
+--------------------------------------------------------------------------------
+问题ID: 231
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+执行成功: 否
+执行失败
+
+问题ID: 232
+问题: Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 233
+问题: Badminton players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 234
+问题: Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 116437...
+未覆盖的答案: lars hall, andrey moiseyev
+
+问题ID: 235
+问题: Olympians Who Won Olympic, NCAA and NBA Basketball Titles
+执行成功: 否
+执行失败
+
+问题ID: 236
+问题: Olympic Divers - Individual Double Champions, Different Years
+执行成功: 否
+执行失败
+
+问题ID: 237
+问题: Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 135390, 129481, 142629, 129478, 142654...
+未覆盖的答案: michaela blyde, theresa fitzpatrick-setefano, sarah goss-hirini, tyla nathan-wong-king, risi pouri-lane, alena saili, jerry tuwai, stacey waaka-fluhler, portia woodman-wickliffe
+
+问题ID: 238
+问题: Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 239
+问题: Basketball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 240
+问题: Water Polo players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 241
+问题: Sailors who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 242
+问题: Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 243
+问题: Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 245
+问题: Olympians Who Played in Tarzan Movies
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Jean Verschneider, Sverre KOLTERUD, Norman PRITCHARD, Dragoslav SEKULARAC, Eleanor HOLM...
+覆盖的答案: buster crabbe, eleanor holm, johnny weissmuller
+未覆盖的答案: don bragg, herman brix, glenn morris
+
+问题ID: 246
+问题: Olympic Champion Golfers Who Won Major Championships
+执行成功: 否
+执行失败
+
+问题ID: 247
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 248
+问题: Rowers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: agostino abbagnale, kathrin boron, eskild ebbesen, conn findlay, jana sorgers
+
+问题ID: 249
+问题: Olympic Fencers - Winning Medals, Foil/Épée, Individual
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: georges, baron dillon-kavanagh, roger ducret, ramón fonst, lucien gaudin, edoardo mangiarotti, charles tatham, albertson van zo post
+
+问题ID: 250
+问题: Baseball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Juan PADILLA, Alberto HERNANDEZ...
+覆盖的答案: alberto hernández, juan padilla
+未覆盖的答案: omar ajete, josé antonio estrada, orestes kindelán, omar linares, antonio pacheco, luis ulacia, lázaro vargas
+
+问题ID: 251
+问题: Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Hans Günter WINKLER, Ludger BEERBAUM...
+覆盖的答案: ludger beerbaum, hans günter winkler
+未覆盖的答案: scott brash, ben maher, franke sloothaak
+
+问题ID: 252
+问题: Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)
+执行成功: 否
+执行失败
+
+问题ID: 253
+问题: Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics
+执行成功: 否
+执行失败
+
+问题ID: 254
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: manuel díaz, nedo nadi
+未覆盖的答案: aldo nadi, oreste puliti
+
+问题ID: 255
+问题: Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 256
+问题: Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: chen zhong, hwang gyeong-seon, jade jones, ulugbek rashitov, panipak wongpattanakit, wu jingyu
+
+问题ID: 257
+问题: Luge athletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 258
+问题: Weightlifters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 259
+问题: Olympians Who Participated in Formula One Races
+执行成功: 否
+执行失败
+
+问题ID: 260
+问题: Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 261
+问题: Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gao Min, Bob Webster, Quan Hongchan, Klaus Dibiasi, People's Republic of China...
+未覆盖的答案: harry boldt, nadine capellmann, andré jousseaumé, reiner klimke, martin schaudt, isabell werth
+
+问题ID: 262
+问题: Wrestlers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: bruce baumgartner, sergey beloglazov, andrzej wroński
+
+问题ID: 263
+问题: Olympians Who Were on the Titanic
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Edward DOUGLAS...
+未覆盖的答案: cosmo duff-gordon, dick williams
+
+问题ID: 264
+问题: Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 91699, 63599, 25298, Al Lane, Jochen Schümann...
+未覆盖的答案: simone biles, huang xu, sergey kharkov, mario lertora, li xiaopeng, tamara manina, yang wei
+
+问题ID: 265
+问题: Olympians Who Were Head of State
+执行成功: 否
+执行失败
+
+问题ID: 266
+问题: Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner
+执行成功: 否
+执行失败
+
+问题ID: 267
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 268
+问题: Curlers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eva lund, cathrine norberg-lindahl, anette norberg, anna svärd-le moine
+
+问题ID: 269
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman
+执行成功: 否
+执行失败
+
+问题ID: 270
+问题: Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: tony estanguet, michal martikán
+
+问题ID: 271
+问题: Olympians Who Have a Town Named After Them
+执行成功: 否
+执行失败
+
+问题ID: 272
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event
+执行成功: 否
+执行失败
+
+问题ID: 273
+问题: Olympic Fencers - Winning Medals, Foil/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 274
+问题: Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 275
+问题: Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ludger beerbaum, beezie madden, lars nieberg, hans von rosen, fritz thiedemann, mclain ward, hans günter winkler
+
+问题ID: 276
+问题: Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kjetil andré aamodt, vreni schneider
+
+问题ID: 277
+问题: Olympians Who Set a World Record in Speed Skating
+执行成功: 否
+执行失败
+
+问题ID: 278
+问题: Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 279
+问题: Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: yuto horigome, keegan palmer
+
+问题ID: 280
+问题: Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 281
+问题: Olympians Who Set a World Record in Long Course Swimming
+执行成功: 否
+执行失败
+
+问题ID: 282
+问题: Rugby players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 18254, 18250, 131307, 129031, 129032...
+未覆盖的答案: dan carroll, charlie doe, john o'neil, jack patrick, rudy scholz, babe slater
+
+问题ID: 283
+问题: Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: milica mandić
+
+问题ID: 284
+问题: Olympic Divers - Individual Double Champions, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 285
+问题: Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 286
+问题: Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships
+执行成功: 否
+执行失败
+
+问题ID: 287
+问题: Baseball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 288
+问题: Olympians Who Won the Super Bowl
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Diogenes, Philon, Hippokrates, Publius Cornelius Ariston, Timokrates...
+覆盖的答案: mike carter, nate ebner, bob hayes
+
+问题ID: 289
+问题: Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 80966, 80870, 81919, 97826, 81551...
+未覆盖的答案: kjetil andré aamodt, deborah compagnoni, michelle gisin, maria höfl-riesch, janica kostelić, matthias mayer, katja seizinger, alberto tomba
+
+问题ID: 290
+问题: Equestrianism: Competing in all events
+执行成功: 否
+执行失败
+
+问题ID: 291
+问题: Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title
+执行成功: 否
+执行失败
+
+问题ID: 292
+问题: Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 293
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+未覆盖的答案: aldo nadi
+
+问题ID: 294
+问题: Triathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 94454, 51213, 1302779...
+未覆盖的答案: alistair brownlee
+
+问题ID: 295
+问题: Archers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 296
+问题: Olympians Who Were Head of Government
+执行成功: 否
+执行失败
+
+问题ID: 297
+问题: Olympians Who Have Won a Nobel Prize
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Philip John NOEL-BAKER, Jenö ZSIGMONDY, Rikizo Takata, Simon LESSING, Georg BRANTING...
+未覆盖的答案: philip baker
+
+问题ID: 298
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: cyrille verbrugge
+
+问题ID: 299
+问题: Olympians Who Won a Medal at the European Archery Championships
+执行成功: 否
+执行失败
+
+问题ID: 300
+问题: Olympic Fencers - Winning Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Olha Kharlan...
+覆盖的答案: roger ducret, gabriel, comte de la falaise, ioannis raisis, albertson van zo post, cyrille verbrugge
+
+问题ID: 301
+问题: BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 113299, 125006...
+未覆盖的答案: craig adair, mariana pajón
+
+问题ID: 302
+问题: Olympians Who Have Topped the English FA Premier League Goal Scoring List
+执行成功: 否
+执行失败
+
+问题ID: 303
+问题: Olympians Who Competed in the Boat Race
+执行成功: 否
+执行失败
+
+问题ID: 304
+问题: Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 305
+问题: Olympians Who Have Flown into Space
+执行成功: 否
+执行失败
+
+问题ID: 306
+问题: Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 307
+问题: Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 122888, 94405, 94399, 51773, 94592...
+未覆盖的答案: misty may-treanor, kerri walsh jennings
+
+问题ID: 308
+问题: Olympians Who Fought at WrestleMania
+执行成功: 否
+执行失败
+
+问题ID: 309
+问题: Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines
+执行成功: 否
+执行失败
+
+问题ID: 310
+问题: Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: marit bjørgen, bjørn dæhlie, nina gavrylyuk, sixten jernberg, kristen skjeldal, raisa smetanina
+
+问题ID: 311
+问题: Volleyball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 131716, 94811, 52969, 112118, 106800...
+未覆盖的答案: giovane, maurício, serginho
+
+问题ID: 312
+问题: Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: alex bilodeau, david wise
+
+问题ID: 313
+问题: Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 103662, 103695, 13274, 16291, 113070...
+未覆盖的答案: fabian cancellara
+
+问题ID: 314
+问题: Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eric frenzel, felix gottwald, johan grøttumsbraaten, takanori kono, kenji ogiwara, mario stecher, ulrich wehling
+
+问题ID: 315
+问题: Divers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: lin yue
+
+问题ID: 316
+问题: Tennis players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 94255, 136374, 2664, 117576, 94424...
+未覆盖的答案: reggie doherty, serena williams, venus williams
+
+问题ID: 317
+问题: Olympians Included on the Voyager 1 and 2 Golden Record
+执行成功: 否
+执行失败
+
+问题ID: 318
+问题: Golfers Who Recorded Holes-in-One at the Olympic Games
+执行成功: 否
+执行失败
+
+问题ID: 319
+问题: Footballers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 320
+问题: Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World (Work in progress)
+执行成功: 否
+执行失败
+
+问题ID: 321
+问题: Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 322
+问题: Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 323
+问题: Biathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ole einar bjørndalen, tarjei bø, sven fischer, martin fourcade, ricco groß, halvard hanevold
+
+问题ID: 324
+问题: Judokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 325
+问题: Inventions by and named after Olympians
+执行成功: 否
+执行失败
+
+问题ID: 326
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: gabriel, comte de la falaise, nedo nadi, cyrille verbrugge
+未覆盖的答案: marcello bertinetti, aldo nadi, dino urbani
+
+问题ID: 327
+问题: Olympians Who Have Climbed Mount Everest
+执行成功: 否
+执行失败
+
+问题ID: 328
+问题: Olympic Cycling Medalists and Tour de France Champions
+执行成功: 否
+执行失败
+
+问题ID: 329
+问题: Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 330
+问题: Tennis players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 331
+问题: Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kristin armstrong, vyacheslav yekimov, leontien zijlaard-van moorsel
+
+问题ID: 332
+问题: Archers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 333
+问题: Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 334
+问题: Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: frederick humphreys, edwin mills, james shepherd
+
+问题ID: 335
+问题: Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: artur dmitriyev, katya gordeyeva, sergey grinkov, scott moir, tessa virtue
+
+问题ID: 336
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+
+问题ID: 337
+问题: Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 338
+问题: Olympians Who Played in the Cricket World Cup
+执行成功: 否
+执行失败
+
+问题ID: 339
+问题: Olympians Killed in the Katyn Massacre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Józef Krudowski...
+未覆盖的答案: józef baran-bilewski, wojciech bursa, zdzisław dziadulski, zdzisław kawecki, aleksander kowalski, marian spojda, stanisław urban
+
+问题ID: 340
+问题: Snowboarders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 341
+问题: Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 342
+问题: Olympians Who Won Academy Awards (Oscars)
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Ronald Lloyd ZINN, Chester W. PHILLIPS, Thomas SCHÖNLEBE, Eiho Sato, John Roland REDMAN...
+未覆盖的答案: kobe bryant, michelle yeoh
+
+问题ID: 343
+问题: Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: jamie anderson, anna gasser, chloe kim, ester ledecká, philipp schoch, pierre vaultier, seth wescott, shaun white
+
+问题ID: 344
+问题: Olympians Who Ran for President of the United States (POTUS)
+执行成功: 否
+执行失败
+
+
+K = 7 详细分析:
+--------------------------------------------------------------------------------
+问题ID: 231
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+执行成功: 否
+执行失败
+
+问题ID: 232
+问题: Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 233
+问题: Badminton players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 234
+问题: Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 34843, 107397...
+未覆盖的答案: lars hall, andrey moiseyev
+
+问题ID: 235
+问题: Olympians Who Won Olympic, NCAA and NBA Basketball Titles
+执行成功: 否
+执行失败
+
+问题ID: 236
+问题: Olympic Divers - Individual Double Champions, Different Years
+执行成功: 否
+执行失败
+
+问题ID: 237
+问题: Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 129027, 129036, 133771, 129032, 2505677...
+未覆盖的答案: michaela blyde, theresa fitzpatrick-setefano, sarah goss-hirini, tyla nathan-wong-king, risi pouri-lane, alena saili, jerry tuwai, stacey waaka-fluhler, portia woodman-wickliffe
+
+问题ID: 238
+问题: Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 239
+问题: Basketball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 240
+问题: Water Polo players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 241
+问题: Sailors who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 242
+问题: Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 243
+问题: Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 245
+问题: Olympians Who Played in Tarzan Movies
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Herman Harold BRIX, John Collier CALHOUN, Donald George BRAGG, Eleanor HOLM, Johnny WEISSMULLER...
+覆盖的答案: eleanor holm, johnny weissmuller
+未覆盖的答案: don bragg, herman brix, buster crabbe, glenn morris
+
+问题ID: 246
+问题: Olympic Champion Golfers Who Won Major Championships
+执行成功: 否
+执行失败
+
+问题ID: 247
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 248
+问题: Rowers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 249
+问题: Olympic Fencers - Winning Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 250
+问题: Baseball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 251
+问题: Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 252
+问题: Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)
+执行成功: 否
+执行失败
+
+问题ID: 253
+问题: Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics
+执行成功: 否
+执行失败
+
+问题ID: 254
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: manuel díaz, nedo nadi
+未覆盖的答案: aldo nadi, oreste puliti
+
+问题ID: 255
+问题: Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 256
+问题: Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: chen zhong, hwang gyeong-seon, jade jones, ulugbek rashitov, panipak wongpattanakit, wu jingyu
+
+问题ID: 257
+问题: Luge athletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 258
+问题: Weightlifters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 259
+问题: Olympians Who Participated in Formula One Races
+执行成功: 否
+执行失败
+
+问题ID: 260
+问题: Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 261
+问题: Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Quan Hongchan, Klaus Dibiasi, People's Republic of China, Cao Yuan, Fu Mingxia...
+未覆盖的答案: harry boldt, nadine capellmann, andré jousseaumé, reiner klimke, martin schaudt, isabell werth
+
+问题ID: 262
+问题: Wrestlers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: bruce baumgartner, sergey beloglazov, andrzej wroński
+
+问题ID: 263
+问题: Olympians Who Were on the Titanic
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Edward DOUGLAS...
+未覆盖的答案: cosmo duff-gordon, dick williams
+
+问题ID: 264
+问题: Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gabrielle DOUGLAS, Mario LERTORA, Kai ZOU, Sawao KATO, Aliya MUSTAFINA...
+覆盖的答案: huang xu, mario lertora, li xiaopeng, tamara manina
+未覆盖的答案: simone biles, sergey kharkov, yang wei
+
+问题ID: 265
+问题: Olympians Who Were Head of State
+执行成功: 否
+执行失败
+
+问题ID: 266
+问题: Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner
+执行成功: 否
+执行失败
+
+问题ID: 267
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 268
+问题: Curlers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eva lund, cathrine norberg-lindahl, anette norberg, anna svärd-le moine
+
+问题ID: 269
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman
+执行成功: 否
+执行失败
+
+问题ID: 270
+问题: Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 271
+问题: Olympians Who Have a Town Named After Them
+执行成功: 否
+执行失败
+
+问题ID: 272
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event
+执行成功: 否
+执行失败
+
+问题ID: 273
+问题: Olympic Fencers - Winning Medals, Foil/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 274
+问题: Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 275
+问题: Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ludger beerbaum, beezie madden, lars nieberg, hans von rosen, fritz thiedemann, mclain ward, hans günter winkler
+
+问题ID: 276
+问题: Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kjetil andré aamodt, vreni schneider
+
+问题ID: 277
+问题: Olympians Who Set a World Record in Speed Skating
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Léon Quaglia, Joe Moore, Michelle Morton, Nataliya Donchenko, Gaétan Boucher...
+未覆盖的答案: falko zandstra, gabi zange-schönbrunn, ihar zhaliasouski, zhang hong
+
+问题ID: 278
+问题: Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 279
+问题: Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: yuto horigome, keegan palmer
+
+问题ID: 280
+问题: Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 281
+问题: Olympians Who Set a World Record in Long Course Swimming
+执行成功: 否
+执行失败
+
+问题ID: 282
+问题: Rugby players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 283
+问题: Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 284
+问题: Olympic Divers - Individual Double Champions, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 285
+问题: Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 286
+问题: Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 136984, 84887, 119771, 97699, 148017...
+未覆盖的答案: zhang yanmei, zhao nannan, zheng chunyang, zhu mi lei, zhou yang, katia zini, mara zini
+
+问题ID: 287
+问题: Baseball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 288
+问题: Olympians Who Won the Super Bowl
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Denny•Morrison, Nataliya Anatolyevna•Petrusyova (-Komarova), Nils Göran•van der Poel (-Svensson), Charles•Hamelin, Lee•Seong-Jin...
+未覆盖的答案: mike carter, nate ebner, bob hayes
+
+问题ID: 289
+问题: Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 80966, 80870, 81919, 97826, 81551...
+未覆盖的答案: kjetil andré aamodt, deborah compagnoni, michelle gisin, maria höfl-riesch, janica kostelić, matthias mayer, katja seizinger, alberto tomba
+
+问题ID: 290
+问题: Equestrianism: Competing in all events
+执行成功: 否
+执行失败
+
+问题ID: 291
+问题: Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title
+执行成功: 否
+执行失败
+
+问题ID: 292
+问题: Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 293
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+未覆盖的答案: aldo nadi
+
+问题ID: 294
+问题: Triathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 106503, 106528, 94454, 51213...
+未覆盖的答案: alistair brownlee
+
+问题ID: 295
+问题: Archers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 296
+问题: Olympians Who Were Head of Government
+执行成功: 否
+执行失败
+
+问题ID: 297
+问题: Olympians Who Have Won a Nobel Prize
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Philip John NOEL-BAKER, Jenö ZSIGMONDY, Rikizo Takata, Simon LESSING, Georg BRANTING...
+未覆盖的答案: philip baker
+
+问题ID: 298
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: cyrille verbrugge
+
+问题ID: 299
+问题: Olympians Who Won a Medal at the European Archery Championships
+执行成功: 否
+执行失败
+
+问题ID: 300
+问题: Olympic Fencers - Winning Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Olha Kharlan...
+覆盖的答案: roger ducret, gabriel, comte de la falaise, ioannis raisis, albertson van zo post, cyrille verbrugge
+
+问题ID: 301
+问题: BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 302
+问题: Olympians Who Have Topped the English FA Premier League Goal Scoring List
+执行成功: 否
+执行失败
+
+问题ID: 303
+问题: Olympians Who Competed in the Boat Race
+执行成功: 否
+执行失败
+
+问题ID: 304
+问题: Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: guido fulst, lutz heßlich, jens lehmann, joan llaneras, bradley wiggins
+
+问题ID: 305
+问题: Olympians Who Have Flown into Space
+执行成功: 否
+执行失败
+
+问题ID: 306
+问题: Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 307
+问题: Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 51996, 51773, 128970, 112501, 94352...
+未覆盖的答案: misty may-treanor, kerri walsh jennings
+
+问题ID: 308
+问题: Olympians Who Fought at WrestleMania
+执行成功: 否
+执行失败
+
+问题ID: 309
+问题: Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines
+执行成功: 否
+执行失败
+
+问题ID: 310
+问题: Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: marit bjørgen, bjørn dæhlie, nina gavrylyuk, sixten jernberg, kristen skjeldal, raisa smetanina
+
+问题ID: 311
+问题: Volleyball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 109261, 53353, 131716, 52034, 94811...
+未覆盖的答案: giovane, maurício, serginho
+
+问题ID: 312
+问题: Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: alex bilodeau, david wise
+
+问题ID: 313
+问题: Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 103662, 13057, 113245, 130650, 113167...
+未覆盖的答案: fabian cancellara
+
+问题ID: 314
+问题: Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 315
+问题: Divers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 316
+问题: Tennis players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 2724, 94424, 757, 130998, 94425...
+未覆盖的答案: reggie doherty, serena williams, venus williams
+
+问题ID: 317
+问题: Olympians Included on the Voyager 1 and 2 Golden Record
+执行成功: 否
+执行失败
+
+问题ID: 318
+问题: Golfers Who Recorded Holes-in-One at the Olympic Games
+执行成功: 否
+执行失败
+
+问题ID: 319
+问题: Footballers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 320
+问题: Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World (Work in progress)
+执行成功: 否
+执行失败
+
+问题ID: 321
+问题: Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 322
+问题: Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 323
+问题: Biathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ole einar bjørndalen, tarjei bø, sven fischer, martin fourcade, ricco groß, halvard hanevold
+
+问题ID: 324
+问题: Judokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 325
+问题: Inventions by and named after Olympians
+执行成功: 否
+执行失败
+
+问题ID: 326
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: gabriel, comte de la falaise, nedo nadi, cyrille verbrugge
+未覆盖的答案: marcello bertinetti, aldo nadi, dino urbani
+
+问题ID: 327
+问题: Olympians Who Have Climbed Mount Everest
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gota MIURA, Wilhelm Ehmer...
+覆盖的答案: gota miura
+未覆盖的答案: manuela di centa, sabrina filzmoser, anne-mari hyryläinen, george mallory, nick symmonds, steve williams
+
+问题ID: 328
+问题: Olympic Cycling Medalists and Tour de France Champions
+执行成功: 否
+执行失败
+
+问题ID: 329
+问题: Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 330
+问题: Tennis players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 331
+问题: Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kristin armstrong, vyacheslav yekimov, leontien zijlaard-van moorsel
+
+问题ID: 332
+问题: Archers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kim su-nyeong, lee seong-jin, darrell pace
+
+问题ID: 333
+问题: Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ramón fonst, lucien gaudin, nedo nadi, cyrille verbrugge
+
+问题ID: 334
+问题: Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 335
+问题: Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: artur dmitriyev, katya gordeyeva, sergey grinkov, scott moir, tessa virtue
+
+问题ID: 336
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+
+问题ID: 337
+问题: Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 338
+问题: Olympians Who Played in the Cricket World Cup
+执行成功: 否
+执行失败
+
+问题ID: 339
+问题: Olympians Killed in the Katyn Massacre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Józef Krudowski...
+未覆盖的答案: józef baran-bilewski, wojciech bursa, zdzisław dziadulski, zdzisław kawecki, aleksander kowalski, marian spojda, stanisław urban
+
+问题ID: 340
+问题: Snowboarders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 341
+问题: Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: wilfried dietrich, nikolaus hirschl, ivar johansson, jan karlsson, august neo, kristjan palusalu, daniel robin, rudolf svensson
+
+问题ID: 342
+问题: Olympians Who Won Academy Awards (Oscars)
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Karel Otáhal, Raymond Edgar DODGE, Manfred HOFMANN, Eiho Sato, Maurice EDELSTON...
+未覆盖的答案: kobe bryant, michelle yeoh
+
+问题ID: 343
+问题: Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 344
+问题: Olympians Who Ran for President of the United States (POTUS)
+执行成功: 否
+执行失败
+
+
+K = 8 详细分析:
+--------------------------------------------------------------------------------
+问题ID: 231
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+执行成功: 否
+执行失败
+
+问题ID: 232
+问题: Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 233
+问题: Badminton players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 234
+问题: Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 235
+问题: Olympians Who Won Olympic, NCAA and NBA Basketball Titles
+执行成功: 否
+执行失败
+
+问题ID: 236
+问题: Olympic Divers - Individual Double Champions, Different Years
+执行成功: 否
+执行失败
+
+问题ID: 237
+问题: Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 238
+问题: Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 239
+问题: Basketball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 240
+问题: Water Polo players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: aleksey barkalov, ottó boros, dezső gyarmati, aleksandr kabanov, tivadar kanizsa, györgy kárpáti, mihály mayer, vyacheslav sobchenko
+
+问题ID: 241
+问题: Sailors who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 242
+问题: Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 243
+问题: Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 245
+问题: Olympians Who Played in Tarzan Movies
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Herman Harold BRIX, John Collier CALHOUN, Donald George BRAGG, Eleanor HOLM, Johnny WEISSMULLER...
+覆盖的答案: eleanor holm, johnny weissmuller
+未覆盖的答案: don bragg, herman brix, buster crabbe, glenn morris
+
+问题ID: 246
+问题: Olympic Champion Golfers Who Won Major Championships
+执行成功: 否
+执行失败
+
+问题ID: 247
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 248
+问题: Rowers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Georg SPOHR, Caroline LIND, Constanta BURCICA, Fintan MC CARTHY, Giuseppe ABBAGNALE...
+覆盖的答案: agostino abbagnale, kathrin boron, eskild ebbesen
+未覆盖的答案: conn findlay, jana sorgers
+
+问题ID: 249
+问题: Olympic Fencers - Winning Medals, Foil/Épée, Individual
+执行成功: 否
+执行失败
+
+问题ID: 250
+问题: Baseball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Juan PADILLA, Alberto HERNANDEZ...
+覆盖的答案: alberto hernández, juan padilla
+未覆盖的答案: omar ajete, josé antonio estrada, orestes kindelán, omar linares, antonio pacheco, luis ulacia, lázaro vargas
+
+问题ID: 251
+问题: Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 252
+问题: Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)
+执行成功: 否
+执行失败
+
+问题ID: 253
+问题: Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics
+执行成功: 否
+执行失败
+
+问题ID: 254
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: manuel díaz, nedo nadi
+未覆盖的答案: aldo nadi, oreste puliti
+
+问题ID: 255
+问题: Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 256
+问题: Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 257
+问题: Luge athletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 258
+问题: Weightlifters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Yoshinobu MIYAKE, Halil MUTLU, Shu-Ching HSU, Yanqing CHEN, Naim Süleymanoğlu...
+覆盖的答案: long qingquan
+未覆盖的答案: akakios kakiasvili
+
+问题ID: 259
+问题: Olympians Who Participated in Formula One Races
+执行成功: 否
+执行失败
+
+问题ID: 260
+问题: Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 261
+问题: Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Quan Hongchan, Klaus Dibiasi, People's Republic of China, Cao Yuan, Fu Mingxia...
+未覆盖的答案: harry boldt, nadine capellmann, andré jousseaumé, reiner klimke, martin schaudt, isabell werth
+
+问题ID: 262
+问题: Wrestlers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Khairon, —, (…), Hetoimokles, Milon...
+覆盖的答案: bruce baumgartner, sergey beloglazov, andrzej wroński
+
+问题ID: 263
+问题: Olympians Who Were on the Titanic
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Edward DOUGLAS...
+未覆盖的答案: cosmo duff-gordon, dick williams
+
+问题ID: 264
+问题: Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 265
+问题: Olympians Who Were Head of State
+执行成功: 否
+执行失败
+
+问题ID: 266
+问题: Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner
+执行成功: 否
+执行失败
+
+问题ID: 267
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 268
+问题: Curlers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: eva lund, cathrine norberg-lindahl, anette norberg, anna svärd-le moine
+
+问题ID: 269
+问题: Olympic Wrestling Champions in Both Freestyle and Greco-Roman
+执行成功: 否
+执行失败
+
+问题ID: 270
+问题: Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 271
+问题: Olympians Who Have a Town Named After Them
+执行成功: 否
+执行失败
+
+问题ID: 272
+问题: Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event
+执行成功: 否
+执行失败
+
+问题ID: 273
+问题: Olympic Fencers - Winning Medals, Foil/Sabre, Individual
+执行成功: 否
+执行失败
+
+问题ID: 274
+问题: Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 275
+问题: Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ludger beerbaum, beezie madden, lars nieberg, hans von rosen, fritz thiedemann, mclain ward, hans günter winkler
+
+问题ID: 276
+问题: Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kjetil andré aamodt, vreni schneider
+
+问题ID: 277
+问题: Olympians Who Set a World Record in Speed Skating
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Léon Quaglia, Sverre Farstad, Matteo Anesi•Enrico Fabris•Ippolito Sanfratello, Yury Klyuyev, Piet Kleine...
+覆盖的答案: ihar zhaliasouski
+未覆盖的答案: falko zandstra, gabi zange-schönbrunn, zhang hong
+
+问题ID: 278
+问题: Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 279
+问题: Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 280
+问题: Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 281
+问题: Olympians Who Set a World Record in Long Course Swimming
+执行成功: 否
+执行失败
+
+问题ID: 282
+问题: Rugby players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 18254, 18250, 131307, 129031, 129032...
+未覆盖的答案: dan carroll, charlie doe, john o'neil, jack patrick, rudy scholz, babe slater
+
+问题ID: 283
+问题: Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 284
+问题: Olympic Divers - Individual Double Champions, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 285
+问题: Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 286
+问题: Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships
+执行成功: 否
+执行失败
+
+问题ID: 287
+问题: Baseball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 288
+问题: Olympians Who Won the Super Bowl
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Aleksey Aleksandrovich•Chervotkin, Anastasiya Viktorovna•Mishina, Kristina Leonidovna•Reztsova, Polina Yuryevna•Vedekhina, Nikita Yuryevich•Glazkov...
+未覆盖的答案: mike carter, nate ebner, bob hayes
+
+问题ID: 289
+问题: Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 290
+问题: Equestrianism: Competing in all events
+执行成功: 否
+执行失败
+
+问题ID: 291
+问题: Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title
+执行成功: 否
+执行失败
+
+问题ID: 292
+问题: Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 293
+问题: Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+未覆盖的答案: aldo nadi
+
+问题ID: 294
+问题: Triathletes who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 295
+问题: Archers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 296
+问题: Olympians Who Were Head of Government
+执行成功: 否
+执行失败
+
+问题ID: 297
+问题: Olympians Who Have Won a Nobel Prize
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Philip John NOEL-BAKER, Jenö ZSIGMONDY, Rikizo Takata, Simon LESSING, Georg BRANTING...
+未覆盖的答案: philip baker
+
+问题ID: 298
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: cyrille verbrugge
+
+问题ID: 299
+问题: Olympians Who Won a Medal at the European Archery Championships
+执行成功: 否
+执行失败
+
+问题ID: 300
+问题: Olympic Fencers - Winning Medals, Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Olha Kharlan...
+覆盖的答案: roger ducret, gabriel, comte de la falaise, ioannis raisis, albertson van zo post, cyrille verbrugge
+
+问题ID: 301
+问题: BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 113299, 125006...
+未覆盖的答案: craig adair, mariana pajón
+
+问题ID: 302
+问题: Olympians Who Have Topped the English FA Premier League Goal Scoring List
+执行成功: 否
+执行失败
+
+问题ID: 303
+问题: Olympians Who Competed in the Boat Race
+执行成功: 否
+执行失败
+
+问题ID: 304
+问题: Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: guido fulst, lutz heßlich, jens lehmann, joan llaneras, bradley wiggins
+
+问题ID: 305
+问题: Olympians Who Have Flown into Space
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Lynn Edythe BURKE, Federica BISCIA...
+未覆盖的答案: jon goodwin
+
+问题ID: 306
+问题: Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 307
+问题: Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 122888, 94405, 94399, 51773, 94592...
+未覆盖的答案: misty may-treanor, kerri walsh jennings
+
+问题ID: 308
+问题: Olympians Who Fought at WrestleMania
+执行成功: 否
+执行失败
+
+问题ID: 309
+问题: Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: jacques cariou, clarence, greve von rosen, jr.
+
+问题ID: 310
+问题: Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 311
+问题: Volleyball players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Lucão, 114333, Fofão, Giovane, Serginho...
+覆盖的答案: giovane, maurício, serginho
+
+问题ID: 312
+问题: Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: alex bilodeau, david wise
+
+问题ID: 313
+问题: Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 103662, 13057, 113245, 130650, 113167...
+未覆盖的答案: fabian cancellara
+
+问题ID: 314
+问题: Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 315
+问题: Divers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: lin yue
+
+问题ID: 316
+问题: Tennis players who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 94255, 136374, 2664, 117576, 94424...
+未覆盖的答案: reggie doherty, serena williams, venus williams
+
+问题ID: 317
+问题: Olympians Included on the Voyager 1 and 2 Golden Record
+执行成功: 否
+执行失败
+
+问题ID: 318
+问题: Golfers Who Recorded Holes-in-One at the Olympic Games
+执行成功: 否
+执行失败
+
+问题ID: 319
+问题: Footballers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 320
+问题: Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World (Work in progress)
+执行成功: 否
+执行失败
+
+问题ID: 321
+问题: Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 322
+问题: Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 323
+问题: Biathletes who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: ole einar bjørndalen, tarjei bø, sven fischer, martin fourcade, ricco groß, halvard hanevold
+
+问题ID: 324
+问题: Judokas who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: teddy riner
+
+问题ID: 325
+问题: Inventions by and named after Olympians
+执行成功: 否
+执行失败
+
+问题ID: 326
+问题: Olympic Fencers - Winning Gold Medals, Épée/Sabre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gustav Casmir, GER, ROU, CHN, Albert Ayat...
+覆盖的答案: gabriel, comte de la falaise, nedo nadi, cyrille verbrugge
+未覆盖的答案: marcello bertinetti, aldo nadi, dino urbani
+
+问题ID: 327
+问题: Olympians Who Have Climbed Mount Everest
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Gota MIURA, Wilhelm Ehmer...
+覆盖的答案: gota miura
+未覆盖的答案: manuela di centa, sabrina filzmoser, anne-mari hyryläinen, george mallory, nick symmonds, steve williams
+
+问题ID: 328
+问题: Olympic Cycling Medalists and Tour de France Champions
+执行成功: 否
+执行失败
+
+问题ID: 329
+问题: Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Valérie Barlois-Mevel, Tilemachos Karakalos, Sofya Velikaya, Fabio Dal Zotto, Anja Fichtel...
+覆盖的答案: roger ducret, albertson van zo post
+
+问题ID: 330
+问题: Tennis players who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: 93995, 94255, 2505392, 1800098, 117458...
+未覆盖的答案: gigi fernandez, mary joe fernandez, andy murray, serena williams, venus williams
+
+问题ID: 331
+问题: Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: kristin armstrong, vyacheslav yekimov, leontien zijlaard-van moorsel
+
+问题ID: 332
+问题: Archers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 333
+问题: Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 334
+问题: Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 是
+答案覆盖: 否
+提取的姓名: ...
+未覆盖的答案: frederick humphreys, edwin mills, james shepherd
+
+问题ID: 335
+问题: Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 336
+问题: Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual
+执行成功: 是
+答案覆盖: 是
+提取的姓名: Gustav Casmir, ROU, GER, CHN, Yelena Novikova...
+覆盖的答案: nedo nadi
+
+问题ID: 337
+问题: Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 338
+问题: Olympians Who Played in the Cricket World Cup
+执行成功: 否
+执行失败
+
+问题ID: 339
+问题: Olympians Killed in the Katyn Massacre
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Józef Krudowski...
+未覆盖的答案: józef baran-bilewski, wojciech bursa, zdzisław dziadulski, zdzisław kawecki, aleksander kowalski, marian spojda, stanisław urban
+
+问题ID: 340
+问题: Snowboarders who won more than one Olympic title in the same event in non-consecutive Games
+执行成功: 否
+执行失败
+
+问题ID: 341
+问题: Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year
+执行成功: 否
+执行失败
+
+问题ID: 342
+问题: Olympians Who Won Academy Awards (Oscars)
+执行成功: 是
+答案覆盖: 否
+提取的姓名: Seibo KITAMURA, George PATTON, Ekke Ozlberger, Waldemar BASZANOWSKI, John LECLAIR...
+未覆盖的答案: kobe bryant, michelle yeoh
+
+问题ID: 343
+问题: Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games
+执行成功: 否
+执行失败
+
+问题ID: 344
+问题: Olympians Who Ran for President of the United States (POTUS)
+执行成功: 否
+执行失败
+
+
