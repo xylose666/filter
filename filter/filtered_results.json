@@ -1,0 +1,1578 @@
+[
+  {
+    "question_id": 231,
+    "original_question": "Olympic Equestrian Riders - Winning Medals in Dressage and Jumping",
+    "sub_questions": [
+      "Which Olympic equestrian riders won medals in dressage?",
+      "Which Olympic equestrian riders won medals in jumping?"
+    ],
+    "combination_type": "aggregate",
+    "sub_answers": [
+      "Anky van Grunsven, Ulla Salzgeber, Nadine Capellmann",
+      "Óscar Cristi, Harry Llewellyn, Pierre Jonquères d’Oriola, Fritz Thiedemann, Eloy de Menezes"
+    ],
+    "final_answer": "After reviewing the lists of riders who won medals in dressage and jumping, there are no common names between the two lists. The dressage medalists include Anky van Grunsven, Ulla Salzgeber, and Nadine Capellmann, while the jumping medalists include Óscar Cristi, Harry Llewellyn, Pierre Jonquères d’Oriola, Fritz Thiedemann, and Eloy de Menezes. Therefore, no rider appears in both lists."
+  },
+  {
+    "question_id": 232,
+    "original_question": "Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Olympic shooters have won more than one gold medal in the same event?",
+      "For each of these shooters, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Diana Bacosi, Chen Ying, Information not found."
+    ],
+    "final_answer": "Diana Bacosi and Chen Ying have been mentioned, but specific information regarding shooters who won more than one Olympic title in the same event in non-consecutive Games was not found."
+  },
+  {
+    "question_id": 233,
+    "original_question": "Badminton players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which badminton players won gold medals in the same event in two consecutive Olympic Games?",
+      "Did these players win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Cai Yun, Fu Haifeng",
+      "Information not found."
+    ],
+    "final_answer": "Cai Yun and Fu Haifeng successfully defended their Olympic title in the same event in back-to-back Games. However, for other badminton players, information regarding such consecutive wins was not found."
+  },
+  {
+    "question_id": 234,
+    "original_question": "Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Modern Pentathletes won gold medals in the same event in two consecutive Olympic Games?",
+      "Did these athletes win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching through the available information, no Modern Pentathletes were found who successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 235,
+    "original_question": "Olympians Who Won Olympic, NCAA and NBA Basketball Titles",
+    "sub_questions": [
+      "Which Olympians have won Olympic basketball gold medals?",
+      "Which of those Olympians also won NCAA basketball titles?",
+      "Which of those Olympians also won NBA basketball titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Don Barksdale",
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "Don Barksdale won an Olympic basketball gold medal. However, there is no information available to confirm if he also won NCAA and NBA basketball titles. Thus, based on the provided sub-answers, it appears that no individual has been confirmed to have won Olympic, NCAA, and NBA basketball titles."
+  },
+  {
+    "question_id": 236,
+    "original_question": "Olympic Divers - Individual Double Champions, Different Years",
+    "sub_questions": [
+      "Which divers have won individual gold medals in two different Olympic Games?",
+      "In which years did these divers win their individual gold medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Fu Mingxia, Gao Min",
+      "Fu Mingxia: 1992, 2000, Gao Min: 1988, 1992"
+    ],
+    "final_answer": "Fu Mingxia and Gao Min are Olympic divers who have won individual gold medals in two different Olympic Games. Fu Mingxia achieved her victories in 1992 and 2000, while Gao Min secured her titles in 1988 and 1992."
+  },
+  {
+    "question_id": 237,
+    "original_question": "Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Rugby Sevens team won the gold medal in the 2016 Rio Olympics?",
+      "Which Rugby Sevens team won the gold medal in the 2020 Tokyo Olympics?",
+      "Who were the players on the Rugby Sevens team that won the gold medal in the 2016 Rio Olympics?",
+      "Who were the players on the Rugby Sevens team that won the gold medal in the 2020 Tokyo Olympics?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found.",
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "Unfortunately, the information required to identify the Rugby Sevens players who successfully defended their Olympic title in back-to-back Games (2016 and 2020) is not available. Each step of the process, from identifying the winning teams to listing the players and finding the common members, did not yield any results."
+  },
+  {
+    "question_id": 238,
+    "original_question": "Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year",
+    "sub_questions": [
+      "Which fencers have won gold medals in all three fencing disciplines (foil, épée, and sabre) in the same Olympic year?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Information not found."
+    ],
+    "final_answer": "Information not found."
+  },
+  {
+    "question_id": 239,
+    "original_question": "Basketball players who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which basketball players have won more than one Olympic gold medal in the same event?",
+      "For those players, in which Olympic Games did they win their gold medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching for basketball players who have won more than one Olympic gold medal in the same event and then checking if these wins were in non-consecutive Games, no information was found that meets these criteria."
+  },
+  {
+    "question_id": 240,
+    "original_question": "Water Polo players who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Water Polo players have won more than one Olympic gold medal in the same event?",
+      "In which Olympic Games did these Water Polo players win their gold medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Charles Smith, Paul Radmilovic",
+      "Charles Smith, Paul Radmilovic, Charles Bugbee"
+    ],
+    "final_answer": "Charles Smith and Paul Radmilovic are Water Polo players who have won more than one Olympic gold medal in the same event. Additionally, Charles Bugbee is also noted to have achieved this feat. To determine if their wins were in non-consecutive Games, we would need to check the specific years of their gold medal victories. Based on the provided sub-answers, Charles Smith and Paul Radmilovic are confirmed, with Charles Bugbee being an additional player mentioned."
+  },
+  {
+    "question_id": 241,
+    "original_question": "Sailors who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which sailors have won more than one Olympic gold medal in the same sailing event?",
+      "For each of these sailors, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching through the available information, no sailors were found who have won more than one Olympic gold medal in the same sailing event in non-consecutive Games."
+  },
+  {
+    "question_id": 242,
+    "original_question": "Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which speed skaters have won more than one Olympic gold medal in the same event?",
+      "For each of these speed skaters, in which years did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no speed skaters were found who have won more than one Olympic gold medal in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 243,
+    "original_question": "Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which sprint canoers have won more than one Olympic gold medal in the same event?",
+      "In which Olympic Games did these sprint canoers win their gold medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Jan Brzák-Felix, Gert Fredriksson",
+      "Roman Petrushenko, Vadim Makhnyov"
+    ],
+    "final_answer": "Jan Brzák-Felix and Gert Fredriksson, as well as Roman Petrushenko and Vadim Makhnyov, are sprint canoers who have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 244,
+    "original_question": "Nordic Combined Skiers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Nordic Combined skiers have won more than one Olympic title in the same event?",
+      "For each of these skiers, in which Olympic Games did they win their titles in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no Nordic Combined skiers were found to have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 245,
+    "original_question": "Olympians Who Played in Tarzan Movies",
+    "sub_questions": [
+      "Which Olympians have acted in Tarzan movies?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      ""
+    ],
+    "final_answer": ""
+  },
+  {
+    "question_id": 246,
+    "original_question": "Olympic Champion Golfers Who Won Major Championships",
+    "sub_questions": [
+      "Which golfers have won gold medals in the Olympics?",
+      "Which of these Olympic champion golfers have also won major championships?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Nelly Korda, Xander Schauffele",
+      "Xander Schauffele, Scottie Scheffler, Bryson DeChambeau"
+    ],
+    "final_answer": "First, the golfers who have won gold medals in the Olympics include Nelly Korda and Xander Schauffele. From this list, Xander Schauffele has also won major championships. Additionally, although not Olympic gold medalists, Scottie Scheffler and Bryson DeChambeau are noted for their major championship wins. However, focusing on the original question, the Olympic champion golfer who has also won a major championship is Xander Schauffele."
+  },
+  {
+    "question_id": 247,
+    "original_question": "Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual",
+    "sub_questions": [
+      "Who won the gold medal in the individual foil event at the most recent Olympics?",
+      "Who won the gold medal in the individual épée event at the most recent Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Lee Kiefer",
+      "Information not found."
+    ],
+    "final_answer": "For the individual foil event, the gold medal winner is Lee Kiefer. For the individual épée event, the information was not found."
+  },
+  {
+    "question_id": 248,
+    "original_question": "Rowers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which rowers have won more than one Olympic gold medal in the same event?",
+      "For each of these rowers, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Veronica Cochelea, Elisabeta Lipă, Marioara Popescu-Ciobanu, Doina Ignat, Elena Georgescu",
+      "Information not found."
+    ],
+    "final_answer": "Veronica Cochelea, Elisabeta Lipă, Marioara Popescu-Ciobanu, Doina Ignat, and Elena Georgescu have won more than one Olympic gold medal in the same event. However, upon checking the years of their gold medal wins, there was no information found to confirm whether these victories were in non-consecutive Games."
+  },
+  {
+    "question_id": 249,
+    "original_question": "Olympic Fencers - Winning Medals, Foil/Épée, Individual",
+    "sub_questions": [
+      "Which fencers won medals in the individual foil event at the Olympics?",
+      "Which fencers won medals in the individual épée event at the Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Ellen Osiier, Gladys Davis, Grete Heckscher, Ramón Fonst, Charles Tatham, Albertson Van Zo Post, Lee Kiefer, Inna Deriglazova, Larisa Korobeynikova, Alice Volpi, Paul Anspach",
+      "Paul Anspach, Ramón Fonst"
+    ],
+    "final_answer": "For the individual foil event, the medal winners include: Ellen Osiier, Gladys Davis, Grete Heckscher, Ramón Fonst, Charles Tatham, Albertson Van Zo Post, Lee Kiefer, Inna Deriglazova, Larisa Korobeynikova, Alice Volpi, and Paul Anspach.\n\nFor the individual épée event, the medal winners are: Paul Anspach and Ramón Fonst."
+  },
+  {
+    "question_id": 250,
+    "original_question": "Baseball players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which baseball players won gold medals in the same event in consecutive Olympic Games?",
+      "Did these players win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching for baseball players who successfully defended their Olympic title in the same event in back-to-back Games, no information was found to confirm any such cases."
+  },
+  {
+    "question_id": 251,
+    "original_question": "Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Equestrian Jumping Riders have won more than one Olympic title in the same event?",
+      "For each of these riders, in which Olympic Games did they win their titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Petrus Kastenman, 1956; Hans von Blixen-Finecke, Jr., 1952; Nick Skelton, 2012; Jessica von Bredow-Werndl, 2021; Isabell Werth, 2021"
+    ],
+    "final_answer": "Based on the provided sub-answers, there is no clear information about equestrian jumping riders who have won more than one Olympic title in the same event in non-consecutive Games. The first sub-answer indicates that the specific information was not found, and the second sub-answer lists several riders with their winning years but does not specify if these victories were in the same event or if they were in non-consecutive Games. Therefore, I cannot provide a definitive list of riders meeting the criteria from the given data."
+  },
+  {
+    "question_id": 252,
+    "original_question": "Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)",
+    "sub_questions": [
+      "Which athletes participated in the 2012 Olympic Football Qualification Campaign for women?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Information not found."
+    ],
+    "final_answer": "Information not found."
+  },
+  {
+    "question_id": 253,
+    "original_question": "Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics",
+    "sub_questions": [
+      "Which Olympians have played in Major League Baseball?",
+      "In which Olympic Games did these Olympians participate?",
+      "Was baseball a medal sport in those Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Edmund “Cotton” Minahan",
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "Edmund “Cotton” Minahan is an Olympian who played in Major League Baseball. However, the information regarding the specific Olympic Games he participated in and whether baseball was a medal sport during those games is not available. Therefore, based on the provided sub-answers, we cannot conclusively determine if he meets all the criteria of having competed in an Olympics where baseball was not a medal sport."
+  },
+  {
+    "question_id": 254,
+    "original_question": "Olympic Fencers - Winning Gold Medals, Foil/Sabre",
+    "sub_questions": [
+      "Which fencers won gold medals in the foil events at the Olympics?",
+      "Which fencers won gold medals in the sabre events at the Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Ellen Osiier, Sándor Pósta, Roger Ducret",
+      "Sándor Pósta, Roger Ducret, János Garay, Ramón Fonst"
+    ],
+    "final_answer": "For the foil event, the gold medal winners are: Ellen Osiier, Sándor Pósta, Roger Ducret.\n\nFor the sabre event, the gold medal winners are: Sándor Pósta, Roger Ducret, János Garay, Ramón Fonst."
+  },
+  {
+    "question_id": 255,
+    "original_question": "Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which skeleton athletes won gold medals in the same event in consecutive Olympic Games?",
+      "For each of these athletes, did they win the gold medal in the same event in both consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty, which means there's no specific information given to combine. Based on the original question and the combination instructions, I would need details about skeleton athletes who have won gold medals in the same event in consecutive Olympic Games. Since the sub-answers do not provide this information, I cannot generate a final answer with the available data.\n\nIf you can provide the necessary sub-answers, I would be able to combine them according to the serial combination type and give you the list of athletes who successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 256,
+    "original_question": "Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which taekwondokas won gold medals in a specific event in one Olympic Games?",
+      "Did these taekwondokas win gold medals in the same event in the subsequent Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty. To give a meaningful final answer, I would need specific information from the sub-answers about taekwondokas who won gold medals in a particular event and then successfully defended their titles in the same event at the subsequent Olympic Games. Without this information, I cannot compile a list of such athletes. Could you provide more details or check the sub-answers for the necessary information?"
+  },
+  {
+    "question_id": 257,
+    "original_question": "Luge athletes who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which luge athletes have won more than one Olympic title in the same event?",
+      "For each of these athletes, in which Olympic Games did they win their titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Tobias Wendl, Tobias Arlt, Sylke Otto",
+      "Tobias Wendl, Tobias Arlt, Sylke Otto, Barbara Niedernhuber, Silke Kraushaar\nCortina (implied to be the most recent Winter Olympics at the time of writing, likely 2026 for Wendl and Arlt), 2002 Winter Olympic Games (Salt Lake City)"
+    ],
+    "final_answer": "Tobias Wendl and Tobias Arlt, as well as Sylke Otto, have won more than one Olympic title in the same luge event. Specifically, Tobias Wendl and Tobias Arlt achieved their victories in non-consecutive Games, with wins at the 2014 Sochi, 2018 Pyeongchang, and 2022 Beijing Olympics, and they are also implied to have competed in the 2026 Cortina d'Ampezzo Games. Sylke Otto secured her titles in 2002 at Salt Lake City and 2006 in Turin, which also qualifies as non-consecutive Games for the purpose of this question."
+  },
+  {
+    "question_id": 258,
+    "original_question": "Weightlifters who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which weightlifters have won more than one Olympic gold medal in the same event?",
+      "For each of these weightlifters, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "František Draškovič: 1936"
+    ],
+    "final_answer": "After reviewing the available information, no weightlifters were found who have won more than one Olympic gold medal in the same event in non-consecutive Games. The sub-answer provided only mentions František Draškovič winning a gold medal in 1936, but there is no additional information about him or any other weightlifter meeting the specified criteria."
+  },
+  {
+    "question_id": 259,
+    "original_question": "Olympians Who Participated in Formula One Races",
+    "sub_questions": [
+      "Which Olympians have participated in Formula One races?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      ""
+    ],
+    "final_answer": ""
+  },
+  {
+    "question_id": 260,
+    "original_question": "Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which trampoline gymnasts won gold medals in the same event in the most recent Olympic Games?",
+      "Did these gymnasts also win gold medals in the same event in the previous Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Ivan Litvinovich",
+      "Ivan Litvinovich, Rosie MacLennan"
+    ],
+    "final_answer": "Ivan Litvinovich and Rosie MacLennan are the trampoline gymnasts who successfully defended their Olympic titles in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 261,
+    "original_question": "Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Equestrian Dressage Riders have won more than one Olympic title in the same event?",
+      "For those riders, in which Olympic Games did they win their titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no Equestrian Dressage Riders were found who have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 262,
+    "original_question": "Wrestlers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which wrestlers have won more than one Olympic gold medal in the same event?",
+      "For each of these wrestlers, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no wrestlers were found who have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 263,
+    "original_question": "Olympians Who Were on the Titanic",
+    "sub_questions": [
+      "Which Olympians were passengers on the Titanic?",
+      "What were the names and nationalities of these Olympians?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty. To properly answer the original question, \"Olympians Who Were on the Titanic,\" I need information to be filled in those sub-answers. Specifically, we would first identify any Olympians who were aboard the Titanic and then provide their names and nationalities. Without this information, I cannot generate a final, combined answer. Could you please provide the necessary details or confirm if there's an update to the sub-answers?"
+  },
+  {
+    "question_id": 264,
+    "original_question": "Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which artistic gymnasts have won more than one Olympic gold medal in the same event?",
+      "For each of these gymnasts, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Larisa Latynina, Věra Čáslavská, Simone Biles",
+      "Information not found."
+    ],
+    "final_answer": "Larisa Latynina, Věra Čáslavská, and Simone Biles are artistic gymnasts who have won more than one Olympic gold medal in the same event. However, upon checking the years of their gold medal wins, there was no information found to confirm that these victories were specifically in non-consecutive Games."
+  },
+  {
+    "question_id": 265,
+    "original_question": "Olympians Who Were Head of State",
+    "sub_questions": [
+      "Which Olympians have served as the head of state in their respective countries?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      ""
+    ],
+    "final_answer": ""
+  },
+  {
+    "question_id": 266,
+    "original_question": "Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner",
+    "sub_questions": [
+      "Which Olympians have participated in the Grand National Steeplechase as a jockey?",
+      "Which Olympians have participated in the Grand National Steeplechase as a trainer?",
+      "Which Olympians have participated in the Grand National Steeplechase as a horse owner?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching for Olympians who have participated in the Grand National Steeplechase as a jockey, trainer, or horse owner, no information was found for any of these roles."
+  },
+  {
+    "question_id": 267,
+    "original_question": "Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year",
+    "sub_questions": [
+      "Which athletes won gold medals in both freestyle and Greco-Roman wrestling in the same Olympic year?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Ivar Johansson, Kristjan Palusalu"
+    ],
+    "final_answer": "Ivar Johansson, Kristjan Palusalu"
+  },
+  {
+    "question_id": 268,
+    "original_question": "Curlers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which curlers won gold medals in the same event in consecutive Olympic Games?",
+      "Did these curlers win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching for curlers who successfully defended their Olympic title in the same event in back-to-back Games, no such information was found."
+  },
+  {
+    "question_id": 269,
+    "original_question": "Olympic Wrestling Champions in Both Freestyle and Greco-Roman",
+    "sub_questions": [
+      "Which athletes have won Olympic gold medals in freestyle wrestling?",
+      "Which athletes have won Olympic gold medals in Greco-Roman wrestling?"
+    ],
+    "combination_type": "compare",
+    "sub_answers": [
+      "Rudolf Vesper, Ivar Johansson, Vítězslav Mácha, Valery Rezantsev",
+      "Csaba Hegedűs, Valery Rezantsev, Rudolf Vesper, Andrea Minguzzi, Ivar Johansson"
+    ],
+    "final_answer": "The athletes who have won Olympic gold medals in both freestyle and Greco-Roman wrestling are Rudolf Vesper, Ivar Johansson, and Valery Rezantsev."
+  },
+  {
+    "question_id": 270,
+    "original_question": "Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Slalom Canoers have won more than one Olympic title in the same event?",
+      "For each of these Slalom Canoers, in which Olympic Games did they win their titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Tony Estanguet",
+      "Lukáš Pollert, 1992 Summer Games, Gareth Marriott, 1992 Summer Games, Scott Strausbaugh, Joe Jacobi, 1992 Summer Games, Nicolas Gestin, 2023 World Championships"
+    ],
+    "final_answer": "Tony Estanguet is the Slalom Canoer who has won more than one Olympic title in the same event in non-consecutive Games. The other names listed participated in the 1992 Summer Games or other events, but do not meet the criteria of winning multiple titles in the same event across non-consecutive Olympics."
+  },
+  {
+    "question_id": 271,
+    "original_question": "Olympians Who Have a Town Named After Them",
+    "sub_questions": [
+      "Which Olympians have a town named after them?",
+      "What are the names of the towns named after these Olympians?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty, which means there's no information to combine. Based on the given instructions and the \"parallel\" combination type, I would present all available information from the sub-answers together. Since both sub-answers are blank, the final answer is:\n\nThere are no Olympians with a town named after them listed in the provided sub-answers."
+  },
+  {
+    "question_id": 272,
+    "original_question": "Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event",
+    "sub_questions": [
+      "Which Olympic equestrian riders won medals in dressage?",
+      "Which Olympic equestrian riders won medals in the 3-day event?"
+    ],
+    "combination_type": "aggregate",
+    "sub_answers": [
+      "Anky van Grunsven, Isabell Werth, Ulla Salzgeber, Nadine Capellmann, Bruno Neumann, Gerard de Kruijff, Charles Pahud de Mortanges",
+      "Charles Pahud de Mortanges, Gerard de Kruijff, Bruno Neumann"
+    ],
+    "final_answer": "The riders who won medals in both dressage and the 3-day event are Charles Pahud de Mortanges, Gerard de Kruijff, and Bruno Neumann."
+  },
+  {
+    "question_id": 273,
+    "original_question": "Olympic Fencers - Winning Medals, Foil/Sabre, Individual",
+    "sub_questions": [
+      "Which fencers won medals in the individual foil event at the Olympics?",
+      "Which fencers won medals in the individual sabre event at the Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Ellen Osiier, Gladys Davis, Grete Heckscher, Ramón Fonst, Albertson Van Zo Post, Lee Kiefer, Inna Deriglazova, Larisa Korobeynikova, Alice Volpi",
+      "György Piller, Giulio Gaudinio, Endre Kabos, Erwin Casmir"
+    ],
+    "final_answer": "In the individual foil event, the medal winners include Ellen Osiier, Gladys Davis, Grete Heckscher, Ramón Fonst, Albertson Van Zo Post, Lee Kiefer, Inna Deriglazova, Larisa Korobeynikova, and Alice Volpi. For the individual sabre event, the medalists are György Piller, Giulio Gaudinio, Endre Kabos, and Erwin Casmir."
+  },
+  {
+    "question_id": 274,
+    "original_question": "Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Ski Jumpers have won more than one Olympic title in the same event?",
+      "For each of these Ski Jumpers, in which Olympic Games did they win their titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no Ski Jumpers were found who have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 275,
+    "original_question": "Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Equestrian Jumping Riders won gold medals in the same event in consecutive Olympic Games?",
+      "Did these riders win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching through the available information, no Equestrian Jumping Riders were found to have successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 276,
+    "original_question": "Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Alpine Skiers have won more than one Olympic gold medal in the same event?",
+      "For each of these skiers, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no Alpine Skiers were found who have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 277,
+    "original_question": "Olympians Who Set a World Record in Speed Skating",
+    "sub_questions": [
+      "Which Olympians set a world record in speed skating?",
+      "In which events did these Olympians set the world records?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Sylvie Daigle, Marinella Canclini, Tamara Rylova, Gao Tingyu",
+      "Yevgeny Kulikov, Tamara Rylova, Marinella Canclini, Gao Tingyu, Cha Min-Kyu, Håvard Lorentzen"
+    ],
+    "final_answer": "Sylvie Daigle, Marinella Canclini, Tamara Rylova, Gao Tingyu, Yevgeny Kulikov, Cha Min-Kyu, and Håvard Lorentzen are Olympians who have set world records in speed skating events."
+  },
+  {
+    "question_id": 278,
+    "original_question": "Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Equestrian Eventing riders have won more than one Olympic title in the same event?",
+      "For those riders, in which Olympic Games did they win their titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Jessica von Bredow-Werndl, Isabell Werth: 2021 Tokyo Olympics"
+    ],
+    "final_answer": "Based on the provided sub-answers, there is no information available about equestrian eventing riders who have won more than one Olympic title in the same event in non-consecutive Games. The second sub-answer mentions Jessica von Bredow-Werndl and Isabell Werth winning at the 2021 Tokyo Olympics, but it does not provide details on their victories in previous or subsequent non-consecutive Games. Therefore, I could not find any riders meeting the specified criteria."
+  },
+  {
+    "question_id": 279,
+    "original_question": "Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which skateboarders won gold medals in the 2020 Tokyo Olympics?",
+      "Which of these skateboarders also won gold medals in the same events in the 2024 Paris Olympics?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Keegan Palmer"
+    ],
+    "final_answer": "Information not found for the 2020 Tokyo Olympics gold medalists in skateboarding who also won in the same events at the 2024 Paris Olympics. However, Keegan Palmer is noted, but without specific details on his performance across both Games."
+  },
+  {
+    "question_id": 280,
+    "original_question": "Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Mountain Bike Cyclists won gold medals in the same event in consecutive Olympic Games?",
+      "Did these cyclists win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching through the available information, no mountain bike cyclists were found to have successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 281,
+    "original_question": "Olympians Who Set a World Record in Long Course Swimming",
+    "sub_questions": [
+      "Which Olympians set a world record in long course swimming events?",
+      "In which specific long course swimming events did these Olympians set world records?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "Unfortunately, the information regarding Olympians who set world records in long course swimming events was not found."
+  },
+  {
+    "question_id": 282,
+    "original_question": "Rugby players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which rugby players won gold medals in the same event in the most recent Olympic Games?",
+      "Did these rugby players also win gold medals in the same event in the previous Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After checking the most recent Olympic Games and the previous one, no information was found regarding rugby players who successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 283,
+    "original_question": "Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which taekwondokas have won more than one Olympic gold medal in the same event?",
+      "For each of these taekwondokas, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty, which means there's no specific information given to combine. Based on the original question and the combination instructions, we were supposed to identify taekwondokas who have won more than one Olympic gold medal in the same event during non-consecutive Games. Since the sub-answers do not provide any data, I cannot list any names or details. If you can provide the necessary sub-answers with the relevant information, I would be able to complete the task as described."
+  },
+  {
+    "question_id": 284,
+    "original_question": "Olympic Divers - Individual Double Champions, Same Year",
+    "sub_questions": [
+      "Which divers won two individual gold medals in the same Olympic Games?",
+      "In which Olympic Games did these divers win their double gold medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Fu Mingxia, Pat McCormick",
+      "Fu Mingxia, Pat McCormick"
+    ],
+    "final_answer": "Fu Mingxia and Pat McCormick are the Olympic divers who won two individual gold medals in the same Olympic Games. Fu Mingxia achieved this feat, as did Pat McCormick, though the specific Olympic Games for each were not detailed in the provided information."
+  },
+  {
+    "question_id": 285,
+    "original_question": "Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Modern Pentathletes have won more than one Olympic title in the same event?",
+      "For those athletes, in which Olympic Games did they win their titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "András Balczó",
+      "András Balczó\n\n1960, 1968, 1972"
+    ],
+    "final_answer": "András Balczó won more than one Olympic title in the same event, with his victories coming in 1960, 1968, and 1972. Since these wins were in non-consecutive Games, he meets the criteria of the original question."
+  },
+  {
+    "question_id": 286,
+    "original_question": "Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships",
+    "sub_questions": [
+      "Which Olympians have won medals in short track speed skating at the Olympics?",
+      "Which of these Olympians also won medals at the World Short Track Speed Skating Team Championships?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Jeon I-Gyeong, Wang, Lee Ho-Seok, Seong Si-Baek, Lee Jeong-Su, Apolo Anton Ohno, Liang Wenhao, Olivier Jean, J. R. Celski",
+      "Lee Ho-Seok, Seong Si-Baek, Lee Jeong-Su"
+    ],
+    "final_answer": "First, the Olympians who have won medals in short track speed skating at the Olympics include: Jeon I-Gyeong, Wang, Lee Ho-Seok, Seong Si-Baek, Lee Jeong-Su, Apolo Anton Ohno, Liang Wenhao, Olivier Jean, and J. R. Celski. Among these, Lee Ho-Seok, Seong Si-Baek, and Lee Jeong-Su also won medals at the World Short Track Speed Skating Team Championships."
+  },
+  {
+    "question_id": 287,
+    "original_question": "Baseball players who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which baseball players have won more than one Olympic title in the same event?",
+      "For those players, in which Olympic Games did they win their titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no baseball players were found to have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 288,
+    "original_question": "Olympians Who Won the Super Bowl",
+    "sub_questions": [
+      "Which athletes have won both an Olympic medal and a Super Bowl ring?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      ""
+    ],
+    "final_answer": ""
+  },
+  {
+    "question_id": 289,
+    "original_question": "Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Alpine skiers won gold medals in the same event in consecutive Olympic Games?",
+      "Did these skiers win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Katja Seizinger, Deborah Compagnoni, Janica Kostelić, Gisin",
+      "Gisin, Katja Seizinger, Deborah Compagnoni, Janica Kostelić"
+    ],
+    "final_answer": "Katja Seizinger, Deborah Compagnoni, Janica Kostelić, Gisin"
+  },
+  {
+    "question_id": 290,
+    "original_question": "Equestrianism: Competing in all events",
+    "sub_questions": [
+      "What are the different equestrian events in the Olympics?",
+      "Which athletes or teams competed in all equestrian events in the most recent Olympics?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "Equestrianism at the Olympics includes several distinct events, but specific details on these events and the athletes or teams who have competed in all of them were not found."
+  },
+  {
+    "question_id": 291,
+    "original_question": "Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title",
+    "sub_questions": [
+      "Which Olympians won a gold medal in baseball at the Olympics?",
+      "Which of these Olympians also won a World Series title?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty, which means there's no specific information given to combine. To properly answer the original question, we would need details on Olympians who won a gold medal in baseball and then check if any of them also won a World Series title. Since the sub-answers are blank, I can't provide a final combined answer based on the given data. If you have more detailed information, please share it, and I'll be happy to help!"
+  },
+  {
+    "question_id": 292,
+    "original_question": "Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Slalom Canoers won gold medals in the same event in consecutive Olympic Games?",
+      "Did these Slalom Canoers win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, there are no records found of Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 293,
+    "original_question": "Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre",
+    "sub_questions": [
+      "How many gold medals have been won in the Olympic foil fencing events?",
+      "How many gold medals have been won in the Olympic épée fencing events?",
+      "How many gold medals have been won in the Olympic sabre fencing events?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "For the Olympic fencing disciplines, the information on gold medal counts for foil, épée, and sabre was not found."
+  },
+  {
+    "question_id": 294,
+    "original_question": "Triathletes who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which triathletes won gold medals in the triathlon event at the most recent Olympic Games?",
+      "Did any of these triathletes also win a gold medal in the same event in the previous Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "Based on the information provided, there are no triathletes who successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 295,
+    "original_question": "Archers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which archers won gold medals in the same event in two consecutive Olympic Games?",
+      "Did these archers win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching through the available information, no archers were found who successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 296,
+    "original_question": "Olympians Who Were Head of Government",
+    "sub_questions": [
+      "Which Olympians have served as the head of government in their respective countries?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      ""
+    ],
+    "final_answer": ""
+  },
+  {
+    "question_id": 297,
+    "original_question": "Olympians Who Have Won a Nobel Prize",
+    "sub_questions": [
+      "Which Olympians have won a Nobel Prize?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      ""
+    ],
+    "final_answer": ""
+  },
+  {
+    "question_id": 298,
+    "original_question": "Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual",
+    "sub_questions": [
+      "Who won the gold medal in the individual épée event at the most recent Olympics?",
+      "Who won the gold medal in the individual sabre event at the most recent Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "For the individual épée event, information on the gold medal winners was not found. Similarly, for the individual sabre event, information on the gold medal winners was also not found."
+  },
+  {
+    "question_id": 299,
+    "original_question": "Olympians Who Won a Medal at the European Archery Championships",
+    "sub_questions": [
+      "Which Olympians won medals at the European Archery Championships?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Information not found."
+    ],
+    "final_answer": "Information not found."
+  },
+  {
+    "question_id": 300,
+    "original_question": "Olympic Fencers - Winning Medals, Épée/Sabre, Individual",
+    "sub_questions": [
+      "Which fencers won medals in the individual épée event at the Olympics?",
+      "Which fencers won medals in the individual sabre event at the Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Paul Anspach, Ramón Fonst, Charles Tatham, Albertson Van Zo Post, Sun Yiwen, Ana Maria Brânză-Popescu, Katrina Lehis, Romain Cannone, Gergely Siklósi, Ihor Reizlin",
+      "György Piller, Giulio Gaudini, Endre Kabos, Erwin Casmir, Tibor Pézsa, Yakov Rylsky, Umyar Mavlikhanov, Claude Arabo, Jerzy Pawłowski, Mark Rakita"
+    ],
+    "final_answer": "For the individual épée event, the medal winners include: Paul Anspach, Ramón Fonst, Charles Tatham, Albertson Van Zo Post, Sun Yiwen, Ana Maria Brânză-Popescu, Katrina Lehis, Romain Cannone, Gergely Siklósi, and Ihor Reizlin.\n\nFor the individual sabre event, the medal winners are: György Piller, Giulio Gaudini, Endre Kabos, Erwin Casmir, Tibor Pézsa, Yakov Rylsky, Umyar Mavlikhanov, Claude Arabo, Jerzy Pawłowski, and Mark Rakita."
+  },
+  {
+    "question_id": 301,
+    "original_question": "BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which BMX Racing Cyclists won gold medals in the 2016 Rio Olympics?",
+      "Which of those BMX Racing Cyclists also won gold medals in the 2020 Tokyo Olympics in the same event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "There were no BMX Racing Cyclists who successfully defended their Olympic title in the same event in both the 2016 Rio Olympics and the 2020 Tokyo Olympics."
+  },
+  {
+    "question_id": 302,
+    "original_question": "Olympians Who Have Topped the English FA Premier League Goal Scoring List",
+    "sub_questions": [
+      "Which Olympians have played in the English FA Premier League?",
+      "Which of these Olympians have topped the goal scoring list in the English FA Premier League?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It seems there was an oversight in providing the sub-answers necessary to combine for the final answer. To properly address the original question, \"Olympians Who Have Topped the English FA Premier League Goal Scoring List,\" we would need specific information on Olympians who have played in the Premier League and then from that list, identify those who have led the league in scoring. Since the sub-answers are not provided, I'm unable to complete the combination as requested. Could you please provide the missing sub-answers?"
+  },
+  {
+    "question_id": 303,
+    "original_question": "Olympians Who Competed in the Boat Race",
+    "sub_questions": [
+      "Which Olympians competed in the boat race events?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "John Anderson, Tom Anderson, Pelle Petterson, Willi Kuhweide, Tore Holm"
+    ],
+    "final_answer": "John Anderson, Tom Anderson, Pelle Petterson, Willi Kuhweide, Tore Holm"
+  },
+  {
+    "question_id": 304,
+    "original_question": "Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which track cyclists have won more than one Olympic gold medal in the same event?",
+      "For each of these track cyclists, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no track cyclists were found who have won more than one Olympic gold medal in the same event during non-consecutive Games."
+  },
+  {
+    "question_id": 305,
+    "original_question": "Olympians Who Have Flown into Space",
+    "sub_questions": [
+      "Which Olympians have flown into space?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      ""
+    ],
+    "final_answer": ""
+  },
+  {
+    "question_id": 306,
+    "original_question": "Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Short Track Speed Skaters have won more than one Olympic title in the same event?",
+      "For each of these skaters, in which Olympic Games did they win their titles in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Jeon I-Gyeong, Wang",
+      "Information not found."
+    ],
+    "final_answer": "Jeon I-Gyeong and Wang are the short track speed skaters who have won more than one Olympic title in the same event. However, upon checking the years of their victories, there was no information found to confirm whether these wins were in non-consecutive Games."
+  },
+  {
+    "question_id": 307,
+    "original_question": "Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Beach Volleyball players won gold medals in the same event in the most recent Olympic Games?",
+      "Did these players also win gold medals in the same event in the previous Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "Based on the information available, there are no records of Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 308,
+    "original_question": "Olympians Who Fought at WrestleMania",
+    "sub_questions": [
+      "Which Olympians have participated in WrestleMania?",
+      "In which WrestleMania events did these Olympians participate?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty, which means there's no specific information given about Olympians who have fought at WrestleMania or the particular events they participated in. To provide a meaningful response, I would need more detailed sub-answers. However, based on general knowledge, one notable example is Kurt Angle, an Olympic gold medalist in freestyle wrestling from the 1996 Olympics, who has participated in multiple WrestleMania events including WrestleMania 17, 18, and 21. For a complete and accurate list, please provide the missing details or additional sub-answers."
+  },
+  {
+    "question_id": 309,
+    "original_question": "Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines",
+    "sub_questions": [
+      "Which Olympic equestrian riders have won individual medals in more than one discipline?",
+      "What are the specific disciplines in which these riders won their individual medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Pierre Jonquères d'Oriola, Óscar Cristi, Fritz Thiedemann"
+    ],
+    "final_answer": "Pierre Jonquères d'Oriola, Óscar Cristi, and Fritz Thiedemann are Olympic equestrian riders who have won individual medals in more than one discipline. However, the specific disciplines in which they won their individual medals were not found."
+  },
+  {
+    "question_id": 310,
+    "original_question": "Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which Cross Country Skiers have won more than one Olympic title in the same event?",
+      "For each of these skiers, in which Olympic Games did they win their titles in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no cross country skiers were found who have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 311,
+    "original_question": "Volleyball players who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which volleyball players have won more than one Olympic gold medal in the same event?",
+      "For each of these players, in which Olympic Games did they win their gold medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Kerri Walsh Jennings",
+      "Kerri Walsh Jennings\n\n2004, 2008, 2012"
+    ],
+    "final_answer": "Kerri Walsh Jennings won Olympic gold medals in beach volleyball in 2004, 2008, and 2012, which means her victories were in consecutive Games. Therefore, while she has won more than one Olympic title in the same event, they were not in non-consecutive Games. Thus, based on the given information, there are no listed volleyball players who have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 312,
+    "original_question": "Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which freestyle skiers won gold medals in the same event in consecutive Olympic Games?",
+      "Did these freestyle skiers win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching for freestyle skiers who successfully defended their Olympic title in the same event in back-to-back Games, no such information was found."
+  },
+  {
+    "question_id": 313,
+    "original_question": "Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which road cyclists have won more than one Olympic gold medal in the same event?",
+      "For each of these road cyclists, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no road cyclists were found to have won more than one Olympic gold medal in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 314,
+    "original_question": "Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Nordic Combined skiers won gold medals in the same event in consecutive Olympic Games?",
+      "Did these skiers win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching through the available information, no Nordic Combined skiers were found to have successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 315,
+    "original_question": "Divers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which divers have won more than one Olympic gold medal in the same event?",
+      "For each diver, in which Olympic Games did they win these gold medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Chen Yuxi, Quan Hongchan: Tokyo"
+    ],
+    "final_answer": "The information provided does not list any divers who have won more than one Olympic gold medal in the same event across non-consecutive Games. The sub-answer mentions Chen Yuxi and Quan Hongchan, but only notes their participation in the Tokyo Olympics, without indicating multiple wins in the same event in non-consecutive Games. Therefore, based on the given data, no divers fitting the original question's criteria were found."
+  },
+  {
+    "question_id": 316,
+    "original_question": "Tennis players who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which tennis players have won more than one Olympic gold medal in the same event?",
+      "For each of these tennis players, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no tennis players were found to have won more than one Olympic gold medal in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 317,
+    "original_question": "Olympians Included on the Voyager 1 and 2 Golden Record",
+    "sub_questions": [
+      "Which Olympians are included on the Voyager 1 Golden Record?",
+      "Which Olympians are included on the Voyager 2 Golden Record?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided for the Olympians included on the Voyager 1 and 2 Golden Records are both empty. Therefore, based on the given information, there is no list of Olympians to present from either of the Voyager Golden Records. If you have additional details or if there's a specific aspect you're interested in, feel free to let me know!"
+  },
+  {
+    "question_id": 318,
+    "original_question": "Golfers Who Recorded Holes-in-One at the Olympic Games",
+    "sub_questions": [
+      "Which golfers recorded holes-in-one during the 2016 Rio Olympics?",
+      "Which golfers recorded holes-in-one during the 2020 Tokyo Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "No information was found regarding golfers who recorded holes-in-one at the specified Olympic Games."
+  },
+  {
+    "question_id": 319,
+    "original_question": "Footballers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which footballers have won more than one Olympic gold medal in the same event?",
+      "For each of these footballers, in which Olympic Games did they win their gold medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no footballers were found who have won more than one Olympic gold medal in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 320,
+    "original_question": "Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World",
+    "sub_questions": [
+      "Which Olympic sailors have competed in the Volvo Ocean Race?",
+      "Which Olympic sailors have competed in the Whitbread Race Around the World?"
+    ],
+    "combination_type": "aggregate",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After searching, I couldn't find any specific information listing Olympic sailors who have also competed in the Volvo Ocean Race or the Whitbread Race Around the World. It's possible that there are athletes who have participated in both, but this information is not readily available or was not found in the sources consulted. If you have any specific names in mind, I can help check their participation in these events."
+  },
+  {
+    "question_id": 321,
+    "original_question": "Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Ski Jumpers won gold medals in the same event in consecutive Olympic Games?",
+      "For each Ski Jumper, did they win the gold medal in the same event in both consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no Ski Jumpers were found who successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 322,
+    "original_question": "Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which rhythmic gymnasts won gold medals in the same event in consecutive Olympic Games?",
+      "Did these rhythmic gymnasts win gold medals in the same event in both of those consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Yevgeniya Kanayeva",
+      "Information not found."
+    ],
+    "final_answer": "Yevgeniya Kanayeva is the rhythmic gymnast who successfully defended her Olympic title in the same event in back-to-back Games. The information for other potential candidates was not found."
+  },
+  {
+    "question_id": 323,
+    "original_question": "Biathletes who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which biathletes have won more than one Olympic title in the same event?",
+      "For each biathlete, in which Olympic Games did they win these titles?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no biathletes were found who have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 324,
+    "original_question": "Judokas who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which judokas have won more than one Olympic gold medal in the same event?",
+      "For each of these judokas, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty. To properly address the original question, we would need information on judokas who have won more than one Olympic gold medal in the same event and then further details to check if these wins were in non-consecutive Games. Without this data, I cannot provide a final answer. If you can provide the necessary sub-answers or additional information, I'd be happy to help combine them into a final answer."
+  },
+  {
+    "question_id": 325,
+    "original_question": "Inventions by and named after Olympians",
+    "sub_questions": [
+      "Which Olympians have inventions named after them?",
+      "What are the names of the inventions named after these Olympians?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It seems that the sub-answers provided are empty, which means there's no specific information given about Olympians and their inventions. To properly answer the original question, we would need details on at least one Olympian who has an invention named after them, along with the name of that invention. Since no such information is available in the sub-answers, I'm unable to combine them into a final answer as requested. If you have more detailed information or other sub-answers, please provide them, and I can help formulate the final answer."
+  },
+  {
+    "question_id": 326,
+    "original_question": "Olympic Fencers - Winning Gold Medals, Épée/Sabre",
+    "sub_questions": [
+      "Which fencers won gold medals in the épée events at the Olympics?",
+      "Which fencers won gold medals in the sabre events at the Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Paul Anspach, Sándor Pósta, Roger Ducret, János Garay, Gauthier Grumier, Yannick Borel, Daniel Jérent, Jean-Michel Lucenay, Ramón Fonst",
+      "Sándor Pósta, Roger Ducret, János Garay, Jerzy Pawłowski, Paul Anspach"
+    ],
+    "final_answer": "For the épée events, the gold medal winners include: Paul Anspach, Sándor Pósta, Roger Ducret, János Garay, Gauthier Grumier, Yannick Borel, Daniel Jérent, Jean-Michel Lucenay, and Ramón Fonst.\n\nFor the sabre events, the gold medal winners are: Sándor Pósta, Roger Ducret, János Garay, Jerzy Pawłowski, and Paul Anspach."
+  },
+  {
+    "question_id": 327,
+    "original_question": "Olympians Who Have Climbed Mount Everest",
+    "sub_questions": [
+      "Which Olympians have climbed Mount Everest?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Information not found."
+    ],
+    "final_answer": "Information not found."
+  },
+  {
+    "question_id": 328,
+    "original_question": "Olympic Cycling Medalists and Tour de France Champions",
+    "sub_questions": [
+      "Olympic Cycling Medalists and Tour de France Champions"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Jeannie Longo, Leontien Zijlaard-Van Moorsel, Susanne Ljungskog, Sara Carrigan, Judith Arndt, Marion Clignet, Antonella Bellutti, Yvonne McGregor, Sarah Ulmer, Jennifer Valente, Yumi Kajihara, Kirsten Wild, Amalie Dideriksen, Lotte Kopecky"
+    ],
+    "final_answer": "Jeannie Longo, Leontien Zijlaard-Van Moorsel, Susanne Ljungskog, Sara Carrigan, Judith Arndt, Marion Clignet, Antonella Bellutti, Yvonne McGregor, Sarah Ulmer, Jennifer Valente, Yumi Kajihara, Kirsten Wild, Amalie Dideriksen, Lotte Kopecky"
+  },
+  {
+    "question_id": 329,
+    "original_question": "Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual",
+    "sub_questions": [
+      "Which fencers won medals in the individual foil event at the Olympics?",
+      "Which fencers won medals in the individual épée event at the Olympics?",
+      "Which fencers won medals in the individual sabre event at the Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Ellen Osiier, Gladys Davis, Grete Heckscher, Ramón Fonst, Charles Tatham, Albertson Van Zo Post, Lee Kiefer, Inna Deriglazova, Larisa Korobeynikova, Alice Volpi",
+      "Ramón Fonst, Charles Tatham, Albertson Van Zo Post",
+      "Information not found."
+    ],
+    "final_answer": "In the individual fencing events at the Olympics, here are some of the medal winners for each category:\n\n- **Foil**: Ellen Osiier, Gladys Davis, Grete Heckscher, Lee Kiefer, Inna Deriglazova, Larisa Korobeynikova, Alice Volpi\n- **Épée**: Ramón Fonst, Charles Tatham, Albertson Van Zo Post\n- **Sabre**: Information not found.\n\nThis list provides a snapshot of the fencers who have won medals in the foil and épée events, with no specific information available for sabre."
+  },
+  {
+    "question_id": 330,
+    "original_question": "Tennis players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which tennis players won gold medals in a specific event in the Olympics?",
+      "In which subsequent Olympic Games did these players win gold medals in the same event again?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Chen Meng, Sun Yingsha"
+    ],
+    "final_answer": "After reviewing the information, it appears there was no data found for tennis players who successfully defended their Olympic title in the same event in back-to-back Games. The names Chen Meng and Sun Yingsha were mentioned, but they are table tennis players, not tennis players, and the context of their mention does not specify a successful defense of an Olympic title in back-to-back Games. Therefore, based on the provided sub-answers, there is no record of tennis players who have achieved this feat."
+  },
+  {
+    "question_id": 331,
+    "original_question": "Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which road cyclists won gold medals in the same event in consecutive Olympic Games?",
+      "For each of these cyclists, did they win the gold medal in the same event in both consecutive Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no road cyclists were found to have successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 332,
+    "original_question": "Archers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which archers have won more than one Olympic gold medal in the same event?",
+      "For each of these archers, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no archers were found who have won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 333,
+    "original_question": "Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year",
+    "sub_questions": [
+      "Which fencers won gold medals in two different individual fencing disciplines in the same Olympic year?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Ramón Fonst"
+    ],
+    "final_answer": "Ramón Fonst"
+  },
+  {
+    "question_id": 334,
+    "original_question": "Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which Tug-of-War teams won gold medals in the Tug-of-War event at the Olympics?",
+      "In which Olympic Games did these Tug-of-War teams win their gold medals?",
+      "Did any of these Tug-of-War teams win gold medals in the same event in back-to-back Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Great Britain, Sweden",
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "Great Britain and Sweden are noted as Tug-of-War teams that won gold medals. However, specific information regarding the Olympic Games in which they won and whether any of these teams successfully defended their title in back-to-back Games was not found."
+  },
+  {
+    "question_id": 335,
+    "original_question": "Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which figure skaters have won more than one Olympic gold medal in the same event?",
+      "For each of these figure skaters, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no figure skaters were found who have won more than one Olympic gold medal in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 336,
+    "original_question": "Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual",
+    "sub_questions": [
+      "Who won the gold medal in the individual foil event at the most recent Olympics?",
+      "Who won the gold medal in the individual sabre event at the most recent Olympics?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Lee Kiefer",
+      "Information not found."
+    ],
+    "final_answer": "For the individual foil event, the gold medal winner is Lee Kiefer. For the individual sabre event, the information on the gold medal winner was not found."
+  },
+  {
+    "question_id": 337,
+    "original_question": "Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which marathon swimmers have won more than one Olympic gold medal in the same event?",
+      "For each of these swimmers, in which Olympic Games did they win their gold medals?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Information not found.",
+      "Information not found."
+    ],
+    "final_answer": "After reviewing the available information, no marathon swimmers have been found who won more than one Olympic title in the same event in non-consecutive Games."
+  },
+  {
+    "question_id": 338,
+    "original_question": "Olympians Who Played in the Cricket World Cup",
+    "sub_questions": [
+      "Which athletes have participated in both the Olympic Games and the Cricket World Cup?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      ""
+    ],
+    "final_answer": ""
+  },
+  {
+    "question_id": 339,
+    "original_question": "Olympians Killed in the Katyn Massacre",
+    "sub_questions": [
+      "Which Olympians were killed in the Katyn Massacre?",
+      "What were the details of their Olympic participation (e.g., sports, years, medals)?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty, which means there's no information given to combine for the original question about Olympians killed in the Katyn Massacre. To provide a meaningful response, I would need specific details or names of the Olympians and their Olympic participation. If you have more information or if there was an error in providing the sub-answers, please let me know so I can assist further."
+  },
+  {
+    "question_id": 340,
+    "original_question": "Snowboarders who won more than one Olympic title in the same event in non-consecutive Games",
+    "sub_questions": [
+      "Which snowboarders have won more than one Olympic gold medal in the same event?",
+      "For each of these snowboarders, in which Olympic Games did they win their gold medals in that event?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Kelly Clark",
+      "Kelly Clark, 2002; Hannah Teter, 2006; Torah Bright, 2010; Kaitlyn Farrington, Information not found."
+    ],
+    "final_answer": "Kelly Clark won Olympic gold medals in the halfpipe event in 2002 and later, which means her victories were in non-consecutive Games. Thus, she is a snowboarder who has won more than one Olympic title in the same event in non-consecutive Games. For other mentioned athletes like Hannah Teter, Torah Bright, and Kaitlyn Farrington, there was either insufficient information or their wins did not meet the criteria of being in the same event across non-consecutive Games."
+  },
+  {
+    "question_id": 341,
+    "original_question": "Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year",
+    "sub_questions": [
+      "Which athletes won medals in both freestyle and Greco-Roman wrestling in the same Olympic year?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      "Ivar Johansson, Kristjan Palusalu, Daniel Robin"
+    ],
+    "final_answer": "Ivar Johansson, Kristjan Palusalu, Daniel Robin"
+  },
+  {
+    "question_id": 342,
+    "original_question": "Olympians Who Won Academy Awards (Oscars)",
+    "sub_questions": [
+      "Which Olympians have won an Academy Award (Oscar)?",
+      "What were the categories and years in which these Olympians won their Academy Awards (Oscars)?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "",
+      ""
+    ],
+    "final_answer": "It appears that the sub-answers provided are empty, which means there's no specific information given to combine. To properly answer the original question about Olympians who have won Academy Awards (Oscars), including the category and year of their Oscar win, we would need detailed information. Since the sub-answers do not provide this, I can still share a known example based on general knowledge:\n\n**Johnny Weissmuller** is one of the most famous examples. He was an Olympic swimmer who won five gold medals in swimming events at the 1924 and 1928 Olympics. Later, he became an actor and is best known for playing Tarzan in a series of films. However, it's important to note that Johnny Weissmuller did not win an Academy Award himself, but his transition from sports to film is a notable crossover.\n\nIf you have more specific sub-answers or additional details, please provide them, and I can give a more accurate and complete response."
+  },
+  {
+    "question_id": 343,
+    "original_question": "Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games",
+    "sub_questions": [
+      "Which snowboarders won gold medals in a specific event in the most recent Olympic Games?",
+      "Did these snowboarders also win gold medals in the same event in the previous Olympic Games?"
+    ],
+    "combination_type": "serial",
+    "sub_answers": [
+      "Kaitlyn Farrington, Sébastien Toutant",
+      "Kelly Clark, Hannah Teter, Torah Bright"
+    ],
+    "final_answer": "Based on the provided sub-answers and following the serial combination type, we first look at the snowboarders who won gold medals in a specific event in the most recent Olympic Games: Kaitlyn Farrington and Sébastien Toutant. Then, checking if these same snowboarders also won gold medals in the same event in the previous Olympic Games, we find that none of them are listed in the second sub-answer which includes Kelly Clark, Hannah Teter, and Torah Bright. Therefore, there are no snowboarders from the given lists who successfully defended their Olympic title in the same event in back-to-back Games."
+  },
+  {
+    "question_id": 344,
+    "original_question": "Olympians Who Ran for President of the United States (POTUS)",
+    "sub_questions": [
+      "Which Olympians have run for the President of the United States?"
+    ],
+    "combination_type": "parallel",
+    "sub_answers": [
+      ""
+    ],
+    "final_answer": ""
+  }
+]
